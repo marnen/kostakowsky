@@ -3,6 +3,23 @@
 
 body {
   font-family: $open-sans;
+}
+
+header {
+  $header-background: #003399;
+  $header-text: #ffffcc;
+  background: $header-background;
+  color: $header-text;
+  font: {
+    family: $oleo-script;
+    size: 200%;
+  }
+  padding: 0.1em;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+main {
   margin: {
     left: 1em;
     right: 1em;
