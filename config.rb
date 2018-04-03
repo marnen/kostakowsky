@@ -53,3 +53,4 @@ activate :external_pipeline,
 # end
 
 set :haml, format: :html5
+set :sass_assets_paths, ['node_modules']

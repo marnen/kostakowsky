@@ -1,24 +1,47 @@
+@import 'reset-css/reset';
+@import 'fonts';
+
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+  font-family: $open-sans;
 }
 
-a {
-  color: rgba(#000, 0.7);
+header {
+  $header-background: #003399;
+  $header-text: #ffffcc;
+  background: $header-background;
+  color: $header-text;
+  font: {
+    family: $oleo-script;
+    size: 200%;
+  }
+  padding: 0.1em;
+  padding-left: 1rem;
+  width: 100%;
+}
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+main {
+  margin: {
+    left: 1em;
+    right: 1em;
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+cite {
+  font-style: italic;
+}
+
+h1, p, pre {
+  margin-top: 1em;
+}
+
+h1 {
+  font: {
+    size: 160%;
+    family: $montserrat;
+    weight: bolder;
+  }
+}
+
+pre {
+  font-family: $monospace;
 }
