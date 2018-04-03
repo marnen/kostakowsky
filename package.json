@@ -8,6 +8,7 @@
   "private": true,
   "devDependencies": {
     "abcjs": "^4.0.1",
+    "brunch": "^2.10.12",
     "font-awesome": "^4.7.0"
   }
 }
