@@ -3,10 +3,26 @@
 
 body {
   font-family: $open-sans;
+  margin: {
+    left: 1em;
+    right: 1em;
+  }
+}
+
+cite {
+  font-style: italic;
+}
+
+h1, p, pre {
+  margin-top: 1em;
 }
 
 h1 {
-  font-family: $montserrat;
+  font: {
+    size: 160%;
+    family: $montserrat;
+    weight: bolder;
+  }
 }
 
 pre {
