@@ -1,1 +1,14 @@
 @import 'reset-css/reset';
+@import 'fonts';
+
+body {
+  font-family: $open-sans;
+}
+
+h1 {
+  font-family: $montserrat;
+}
+
+pre {
+  font-family: $monospace;
+}
