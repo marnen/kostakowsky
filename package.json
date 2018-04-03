@@ -1,0 +1,9 @@
+{
+  "name": "kostakowsky",
+  "version": "0.1.0",
+  "description": "Web version of Kostakowsky's International Hebrew Wedding Music.",
+  "main": "index.js",
+  "author": "Marnen Laibow-Koser <marnen@marnen.org>",
+  "license": "MIT",
+  "private": true
+}
