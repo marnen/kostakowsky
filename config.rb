@@ -27,6 +27,13 @@ page '/*.txt', layout: false
 #   },
 # )
 
+# from https://github.com/acoustep/middleman-brunch/blob/master/template/config.rb
+activate :external_pipeline,
+  name: :brunch,
+  command: build? ? './node_modules/brunch/bin/brunch build --production --env production' : './node_modules/brunch/bin/brunch watch --stdin',
+  source: ".tmp/dist",
+  latency: 1
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
