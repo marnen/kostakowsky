@@ -24,17 +24,17 @@ main {
     left: 1em;
     right: 1em;
   }
+
+  & > * {
+    margin-top: 1em;
+  }
 }
 
 cite {
   font-style: italic;
 }
 
-h1, p, pre {
-  margin-top: 1em;
-}
-
-h1 {
+%header {
   font: {
     size: 160%;
     family: $montserrat;
@@ -42,6 +42,23 @@ h1 {
   }
 }
 
+h1, h2 {
+  @extend %header;
+}
+
+h1 {
+  font-size: 160%;
+}
+
+h2 {
+  font-size: 112%;
+}
+
 pre {
   font-family: $monospace;
+}
+
+ul li {
+  margin-left: 1em;
+  list-style-type: disc;
 }
