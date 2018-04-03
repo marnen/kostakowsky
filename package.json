@@ -10,6 +10,7 @@
     "abcjs": "^4.0.1",
     "brunch": "^2.10.12",
     "copycat-brunch": "^1.1.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "reset-css": "^3.0.0"
   }
 }
