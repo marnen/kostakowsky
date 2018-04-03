@@ -6,4 +6,4 @@ module.exports =
     watched: ['source/javascripts']
   plugins:
     copycat:
-      'abcjs': 'node_modules/abcjs/bin/abcjs_midi_4.0.1-min.js'
+      'abcjs': 'node_modules/abcjs/bin/abcjs_plugin_4.0.1-min.js'
