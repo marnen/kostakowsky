@@ -6,7 +6,7 @@
     %meta(content="ie=edge" http-equiv="x-ua-compatible")/
     %meta(content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport")/
     / Use the title from a page's frontmatter if it has one
-    %title= current_page.data.title || "Middleman"
+    %title= current_page.data.full_title || "#{current_page.data.title} :: International Hebrew Wedding Music"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
     = javascript_include_tag "abcjs/abcjs_plugin_4.0.1-min.js"
@@ -14,4 +14,5 @@
     %header
       International Hebrew Wedding Music
     %main
+      %h1= current_page.data.header || current_page.data.title
       = yield
