@@ -30,7 +30,7 @@ $(() => {
   tunes.forEach(tune => {
     const divId = domId(tune);
     const tuneDiv = $(`<div class='tune' id='${divId}'></div>`);
-    tuneDiv.appendTo('body');
+    tuneDiv.appendTo('main');
     ABCJS.renderAbc(divId, tune.abc);
   });
 
