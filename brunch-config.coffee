@@ -1,9 +1,6 @@
 module.exports =
   files:
-    javascripts: {}
+    javascripts: {joinTo: 'site.js'}
   paths:
     public: '.tmp/dist'
     watched: ['source/javascripts']
-  plugins:
-    copycat:
-      'abcjs': 'node_modules/abcjs/bin/abcjs_plugin_4.0.1-min.js'
