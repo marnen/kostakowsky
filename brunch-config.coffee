@@ -4,3 +4,6 @@ module.exports =
   paths:
     public: '.tmp/dist'
     watched: ['source/javascripts']
+  modules:
+    autoRequire:
+      'site.js': ['source/javascripts/site.js']
