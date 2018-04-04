@@ -2,7 +2,9 @@
 import ABCJS from 'abcjs';
 import $ from 'jquery';
 
-const domId = ({id}) => `tune_${id}`;
+const appendBackLink = selector => selector.after(() => $('<a class="top" href="#">back to top</a>'));
+
+const domId = ({id}) => `tune-${id}`;
 
 const metadata = tunes => tunes.map(tune => {
   const abcLines = tune.abc.split('\n');
@@ -27,8 +29,10 @@ $(() => {
 
   tunes.forEach(tune => {
     const divId = domId(tune);
-    const tuneDiv = $(`<div id='${divId}'></div>`);
+    const tuneDiv = $(`<div class='tune' id='${divId}'></div>`);
     tuneDiv.appendTo('body');
-    const rendered = ABCJS.renderAbc(divId, tune.abc);
+    ABCJS.renderAbc(divId, tune.abc);
   });
+
+  appendBackLink($('.tune'));
 });
