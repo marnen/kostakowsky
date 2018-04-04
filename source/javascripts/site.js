@@ -18,8 +18,9 @@ const domId = ({id}) => `tune-${id}`;
 
 const metadata = tunes => tunes.map(tune => {
   const abcLines = tune.abc.split('\n');
-  const keys = abcLines.filter(line => line.startsWith('K:')).map(line => line.replace(/^K:\s*/, ''));
-  return {id: tune.id, title: tune.title, keys: keys.join(', ')};
+  const keys = abcLines.filter(line => line.startsWith('K:')).map(line => line.replace(/^K:\s*/, '').trim());
+  const fullTitle = abcLines.filter(line => line.startsWith('T:')).map(line => line.replace(/^T:\s*/, '').trim());
+  return {id: tune.id, title: tune.title, fullTitle: fullTitle.join(' '), keys: keys.join(', ')};
 });
 
 $(() => {
@@ -30,8 +31,8 @@ $(() => {
   const {tunes} = tunebook;
   const contents = $('<ul class="contents"></ul>');
   metadata(tunes).forEach(record => {
-    const {id, title, keys} = record;
-    const listItem = $('<li></li>').text(`${id}. ${title} (${keys})`);
+    const {id, fullTitle, keys} = record;
+    const listItem = $('<li></li>').text(`${id}. ${fullTitle} (${keys})`);
     const link = $(`<a href='#${domId(record)}'></a>`).html(listItem);
     contents.append(link);
   });
