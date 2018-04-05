@@ -1,0 +1,71 @@
+%%graceslurs true
+
+X:[1]
+T:Doina.
+C:Revised by W.N. Kostakowsky.
+N:page 20
+N:repeated figures are indicated with 𝄎 symbols in source
+N:TODO: Lilypond version should use the 𝄎 symbols
+M:C
+L:1/16
+K:Gm
+HD8- D2(E^F GAB^c) | {^ce}Hd16 | H^c12 ((6cdcBAB) |
+((6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAB | (6^cdcBAB (6cdcBAB (6cdcBAB) ((6c2d2c2B2A2G2) | HD8- D2(E^F GAB=B) |
+Hc16 | (TcB) (BA) (cB) (BA) (cB) (BA) (cB) (BA) | {/B}dGGG GGGG HG4 (GBAG) |
+HD8- D2(E^F GAB^c) | Hd16 | ((6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAB |  (6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAG) |
+AAAA AAAA HA6 A2 | (=e6d2) (d6^c2) | (T^cB)(BA)(AG) (6AAAAAA HA8 |
+HD8- D2(E^F GAB=B) | Hc16 | (TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | {/B}dGGG GGGG HG4 (GBAG) |
+HD8- D2(E^F GAB^c) | {^ce}Hd16 | =c2d2 =e6d2 (Td2c2) | c3>G c12 | (3c2d2=e2 g8e4 |
+%%graceslurs false
+(T=ed)(Tdc) c4 {/G,}[=Ec]8 | (TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | (y{/B}dy)GGG GGGG HG4 (GBAG) | d2D2 HG12 "_D.C. ad lib."y ||
+%%graceslurs true
+M:2/4
+L:1/16
+y [Q:"Andᵗᵉ"] (g3f) (f3=e) | (T=ed)(Ted) d3d | g3f (f3=e) | (T=ed)(ed) d3^c |
+(=e3d) (d3^c) | ^c6 {/d}(c/B/A/G/) | A2A2A2A2 | A2A2A2A2 | (=e3d) (d3^c) |
+^c6 {/d}(c/B/A/G/) | A2A2A2A2 | HA8 ||\
+K:Gm
+M:C
+L:1/16
+HD8- D2(E^F GAB=B) | Hc16 |
+(TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | {/B}dGGG GGGG HG4 (GBAG) | d2D2 HG12 |]
+
+X:[2]
+T:Rumanian Serba.
+N:page 21
+N:drones are written as whole notes in the original
+M:2/4
+L:1/8
+K:G
+|: (E>F G>D) & G,4 | (G>D G2) & G,4 | (E>F G>D) & G,4 | [G,-G]2[G,G]2 :|
+|: ([DB]>[Dc] [Dd]>D) | (d>D d2) | (E>F G>D) & G,4 | [G,-G]2[G,G]2 :: {/^c}d4- | d4 | {/^c}d4- |
+d4 | !2!e=f Ted | !2!e=f Ted | !2!e=f Ted | !2!^cd TcB |
+!2!e=f Ted | !2!^cd TcB | ((3B!1!^AG) ((3G!1!AB) | T^c3B | !2!e=f Ted |
+!2!^cd TcB | ((3B!1!^AG) ((3G!1!AB) | G2G,2 :: ^cd TcB | ((3B!1!^AG) ((3G!1!AB) |
+(Tc>B) ((3!1!B!1!^A!1!B) | d z D z | ^cd TcB | ((3B!1!^AG) ((3G!1!AB) |
+%%graceslurs false
+(Tc>B) ((3!1!B!1!^A!1!B) |1 G z G, z :|2 G2 G,d || {/^A}B4- | B4 | {/^A}B4- | B4 |
+%%graceslurs true
+|: ((3!1!GAB) ((3GAB) | ((3GAB) ((3GAB) | (!2!^c>B) ((3B!1!^AG) | ((3ed^c) d2 |
+((3!1!GAB) ((3GAB) | ((3GAB) ((3GAB) | (T^c>B) ((3B!1!^AG) | G z g z "_D.C. ad lib."y :|
+M:2/4
+L:1/8
+P:CODA.
+!coda!y (E>F G>D) & G,4 | (G>D G2) & G,4 | (E>F G>D) & G,4 | (.[G,G] .[G,G]) | (E>F G>D) & G,4 | (G>D G2) & G,4 | d z [Af] z | [Bg] z z2 |]
+
+X:[3]
+T:Kolorash.
+N:page 22
+N:some (not all) repeated figures are indicated with 𝄎 symbols in source
+N:TODO: Lilypond version should use the 𝄎 symbols
+M:3/8
+L:1/16
+K:Ddor
+|: "^8va ad lib."(Ae) d2d2 | d3"^[sic]"cd cBA | (Ae) e2e2 | d3cd (3(cB)A | ^G2zD AD |  B2zD AD |
+[1 ^G2zD FD | E2zD (3(FE)D :|2 ^G2zD EF | D4 ((3ABA) |: g2zd ad | b2zd ad |
+^g2zd fd | e2zd (3(fe)d | g2zd ad | b2zd ad | ^g2zd ef || [1 "^[sic!]"d6 ((3a2b2a2) :|
+[2 d4 z2 |: (^gb) (a4 | a6 | a6 | a2)zd e^f | g2z^f a2 | z3 c' ba & x3 d e^f | g2z^f a2 | z3 c' ba & x3 d e^f |
+Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | c'6- | c'6 | b6- | b6 | a6- | a6 | Tg2z^f a2 | z3 c' ba & x3 d e^f |
+Tg2zf a2 | z3 c' ba & x3 d e^f | Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | b2c'2 Tba | ^g2zd ad | b2zd ad |
+^g2zd fd | e2zd (3(fe)d | ^g2zd ad | b2zd ad | ^g2zd e!1!f | d4 (aba) |
+^g2zd ad | b2zd ad | ^g2zd fd | (e2zd) (3(fe)d | f2f2f2 | e2zd ef | d6- | d4 z2 :|
