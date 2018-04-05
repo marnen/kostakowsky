@@ -29,3 +29,26 @@ M:C
 L:1/16
 HD8- D2(E^F GAB=B) | Hc16 |
 (TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | {/B}dGGG GGGG HG4 (GBAG) | d2D2 HG12 |]
+
+X:[2]
+T:Rumanian Serba.
+N:page 21
+N:drones are written as whole notes in the original
+M:2/4
+L:1/8
+K:G
+|: (E>F G>D) & G,4 | (G>D G2) & G,4 | (E>F G>D) & G,4 | [G,-G]2[G,G]2 :|
+|: ([DB]>[Dc] [Dd]>D) | (d>D d2) | (E>F G>D) & G,4 | [G,-G]2[G,G]2 :: {/^c}d4- | d4 | {/^c}d4- |
+d4 | !2!e=f Ted | !2!e=f Ted | !2!e=f Ted | !2!^cd TcB |
+!2!e=f Ted | !2!^cd TcB | ((3B!1!^AG) ((3G!1!AB) | T^c3B | !2!e=f Ted |
+!2!^cd TcB | ((3B!1!^AG) ((3G!1!AB) | G2G,2 :: ^cd TcB | ((3B!1!^AG) ((3G!1!AB) |
+(Tc>B) ((3!1!B!1!^A!1!B) | d z D z | ^cd TcB | ((3B!1!^AG) ((3G!1!AB) |
+%%graceslurs false
+(Tc>B) ((3!1!B!1!^A!1!B) |1 G z G, z :|2 G2 G,d || {/^A}B4- | B4 | {/^A}B4- | B4 |
+%%graceslurs true
+|: ((3!1!GAB) ((3GAB) | ((3GAB) ((3GAB) | (!2!^c>B) ((3B!1!^AG) | ((3ed^c) d2 |
+((3!1!GAB) ((3GAB) | ((3GAB) ((3GAB) | (T^c>B) ((3B!1!^AG) | G z g z "_D.C. ad lib."y :|
+M:2/4
+L:1/8
+P:CODA.
+!coda!y (E>F G>D) & G,4 | (G>D G2) & G,4 | (E>F G>D) & G,4 | (.[G,G] .[G,G]) | (E>F G>D) & G,4 | (G>D G2) & G,4 | d z [Af] z | [Bg] z z2 |]
