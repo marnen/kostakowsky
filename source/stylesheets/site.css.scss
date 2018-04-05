@@ -34,7 +34,7 @@ cite {
   font-style: italic;
 }
 
-%header {
+%heading {
   font: {
     size: 160%;
     family: $montserrat;
@@ -43,7 +43,7 @@ cite {
 }
 
 h1, h2 {
-  @extend %header;
+  @extend %heading;
 }
 
 h1 {
