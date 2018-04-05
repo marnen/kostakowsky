@@ -11,9 +11,9 @@
     = javascript_include_tag "site"
   %body
     %header
-      %span.title ✡ International Hebrew Wedding Music
-      %span.edition Web edition
-
+      = link_to '/' do
+        %span.title ✡ International Hebrew Wedding Music
+        %span.edition Web edition
     %main
       %h1= current_page.data.header || current_page.data.title
       = yield

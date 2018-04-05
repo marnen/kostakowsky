@@ -25,10 +25,16 @@ header {
 
   & > :first-child {
     margin-left: 1rem;
+    float: left;
   }
 
   & > :last-child {
     margin-right: 1rem;
+  }
+
+  & > a {
+    color: inherit;
+    text-decoration: inherit;
   }
 
   %text {
@@ -57,11 +63,8 @@ header {
     text-transform: none;
   }
 
-  .edition, nav {
-    @extend %text;
-  }
-
   .edition {
+    @extend %text;
     float: left;
   }
 }
