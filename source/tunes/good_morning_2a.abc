@@ -1,0 +1,21 @@
+X: 2a
+T: Good Morning
+T: And Freilachs.
+T: [Freilachs is given separately as tune 2b here, due to limitations of the ABC format.]
+N: page 6
+M: 3/4
+L: 1/4
+K: Gm
+Q: "Andante."
+uD |: (vG2B) | (d2g) | (!2!b2a) | (!4!g2d) | (d'c'b) | (ba!4!g) |
+(a/b/) (a/b/) (a/b/) | a3 | (e'2d') | (c'ba) | (d'2c') | (ba!4!g) | (a/c'/ba) |
+a!4!g^f | gd!3!B/A/ |1 G2!0!D :|2 G2!2!F |: "^2ⁿᵈ time 8va"(B2c) | (d2e) | (fgf) | (fdB) |
+(A2c) | (f2e) | (edc) | [L:1/16] "^[better typesetting in original]"((B2AB) ((3dcB)z2 (BAGD)) & B4A4D4 |\
+[L:1/4] (GAB) | (cde) | (d2c) |
+(BAG) | (A{/c}BA) | (AG^F) | (GD)B/A/ |1 (G2F) & y2f :|2 (G2D) & g2y |: "^2ⁿᵈ time 8va"[DB]3 | ([DB][CA][B,G]) |
+[DB]3 | ([DB][CA][B,G]) | ([DB][CA][B,G]) | ([DB][CA][B,G]) | ([CA]/[DB]/) ([CA]/[DB]/) ([CA]/[DB]/) | [CA]3 | [Ec]3 | ([Ec][DB][CA]) |
+[DB]3 | ([DB][CA][B,G]) | ([CA][DB][CA]) | ([CA][B,G][A,^F]) | [B,G]DB,/A/ |1 G,2D & y2d :|2 G2F & G,2y ||
+(B2c) | (d2e) | (fgf) | (fdB) | (A2c) | (f2e) | (edc) | [L:1/16] "^[better typesetting in original]"((B2AB) ((3dcB)z2 (BAGD)) & B4A4D4 |
+[L:1/4] (GAB) | (cde) | (d2c) | (BAG) | (A{/c}BA) | (AG^F) | (GD)B/A/ | (G2D) ||
+
+X: 2b

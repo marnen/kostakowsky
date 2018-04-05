@@ -1,0 +1,16 @@
+X:[3]
+T:Kolorash.
+N:page 22
+N:some (not all) repeated figures are indicated with 𝄎 symbols in source
+N:TODO: Lilypond version should use the 𝄎 symbols
+M:3/8
+L:1/16
+K:Ddor
+|: "^8va ad lib."(Ae) d2d2 | d3"^[sic]"cd cBA | (Ae) e2e2 | d3cd (3(cB)A | ^G2zD AD |  B2zD AD |
+[1 ^G2zD FD | E2zD (3(FE)D :|2 ^G2zD EF | D4 ((3ABA) |: g2zd ad | b2zd ad |
+^g2zd fd | e2zd (3(fe)d | g2zd ad | b2zd ad | ^g2zd ef || [1 "^[sic!]"d6 ((3a2b2a2) :|
+[2 d4 z2 |: (^gb) (a4 | a6 | a6 | a2)zd e^f | g2z^f a2 | z3 c' ba & x3 d e^f | g2z^f a2 | z3 c' ba & x3 d e^f |
+Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | c'6- | c'6 | b6- | b6 | a6- | a6 | Tg2z^f a2 | z3 c' ba & x3 d e^f |
+Tg2zf a2 | z3 c' ba & x3 d e^f | Tg2z^f a2 | Tg2z^f a2 | Tg2z^f a2 | b2c'2 Tba | ^g2zd ad | b2zd ad |
+^g2zd fd | e2zd (3(fe)d | ^g2zd ad | b2zd ad | ^g2zd e!1!f | d4 (aba) |
+^g2zd ad | b2zd ad | ^g2zd fd | (e2zd) (3(fe)d | f2f2f2 | e2zd ef | d6- | d4 z2 :|

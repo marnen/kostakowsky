@@ -1,0 +1,30 @@
+X:[1]
+T:Doina.
+C:Revised by W.N. Kostakowsky.
+N:page 20
+N:repeated figures are indicated with 𝄎 symbols in source
+N:TODO: Lilypond version should use the 𝄎 symbols
+M:C
+L:1/16
+K:Gm
+HD8- D2(E^F GAB^c) | {^ce}Hd16 | H^c12 ((6cdcBAB) |
+((6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAB | (6^cdcBAB (6cdcBAB (6cdcBAB) ((6c2d2c2B2A2G2) | HD8- D2(E^F GAB=B) |
+Hc16 | (TcB) (BA) (cB) (BA) (cB) (BA) (cB) (BA) | {/B}dGGG GGGG HG4 (GBAG) |
+HD8- D2(E^F GAB^c) | Hd16 | ((6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAB |  (6^cdcBAB (6cdcBAB (6cdcBAB (6cdcBAG) |
+AAAA AAAA HA6 A2 | (=e6d2) (d6^c2) | (T^cB)(BA)(AG) (6AAAAAA HA8 |
+HD8- D2(E^F GAB=B) | Hc16 | (TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | {/B}dGGG GGGG HG4 (GBAG) |
+HD8- D2(E^F GAB^c) | {^ce}Hd16 | =c2d2 =e6d2 (Td2c2) | c3>G c12 | (3c2d2=e2 g8e4 |
+%%graceslurs false
+(T=ed)(Tdc) c4 {/G,}[=Ec]8 | (TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | (y{/B}dy)GGG GGGG HG4 (GBAG) | d2D2 HG12 "_D.C. ad lib."y ||
+%%graceslurs true
+M:2/4
+L:1/16
+y [Q:"Andᵗᵉ"] (g3f) (f3=e) | (T=ed)(Ted) d3d | g3f (f3=e) | (T=ed)(ed) d3^c |
+(=e3d) (d3^c) | ^c6 {/d}(c/B/A/G/) | A2A2A2A2 | A2A2A2A2 | (=e3d) (d3^c) |
+^c6 {/d}(c/B/A/G/) | A2A2A2A2 | HA8 ||\
+K:Gm
+M:C
+L:1/16
+HD8- D2(E^F GAB=B) | Hc16 |
+(TcB) (BA) (TcB) (BA) (TcB) (BA) (TcB) (BA) | {/B}dGGG GGGG HG4 (GBAG) | d2D2 HG12 |]
+
