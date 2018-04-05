@@ -8,15 +8,62 @@ body {
 header {
   $header-background: #003399;
   $header-text: #ffffcc;
+  $height: 2rem;
   background: $header-background;
   color: $header-text;
-  font: {
-    family: $oleo-script;
-    size: 200%;
+  padding: {
+    top: 0.3rem;
+    bottom: 0.3rem;
   }
-  padding: 0.1em;
-  padding-left: 1rem;
   width: 100%;
+  height: $height;
+
+  @mixin vertical-center($element-height: $height) {
+    height: $element-height;
+    line-height: $element-height;
+  }
+
+  & > :first-child {
+    margin-left: 1rem;
+  }
+
+  & > :last-child {
+    margin-right: 1rem;
+  }
+
+  %text {
+    @include vertical-center;
+
+    font: {
+      family: $montserrat;
+      weight: 500;
+      size: 0.9rem;
+    }
+    letter-spacing: 1.5px;
+    padding-top: auto;
+    padding-bottom: auto;
+    text-transform: uppercase;
+    vertical-align: text-top;
+  }
+
+  .title {
+    font: {
+      family: $oleo-script;
+      size: $height;
+      weight: normal;
+    }
+    float: left;
+    padding-right: 0.5rem;
+    text-transform: none;
+  }
+
+  .edition, nav {
+    @extend %text;
+  }
+
+  .edition {
+    float: left;
+  }
 }
 
 main {
