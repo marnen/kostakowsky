@@ -17,5 +17,6 @@
 
 guard 'rake', task: :convert_tunes do
   ENV['OUTPUT_DIR'] = File.join(File.dirname(__FILE__), '.tmp/dist')
-  watch(%r{source/tunes/.+\.xml$})
+  watch(%r{\bsource/tunes/.+\.xml$})
+  watch(%r{\bRakefile$})
 end
