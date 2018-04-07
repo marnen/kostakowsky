@@ -3,15 +3,10 @@ title: Good Morning [Dobriden]
 ---
 
 %h2#tune_1 1. Good Morning and Bulgar (Gm)
-%p
-  Download:
-  = link_to 'ABC', '/tunes/good_morning_1.abc'
-  = link_to 'PDF', '/tunes/good_morning_1.pdf'
-  = link_to 'MusicXML', '/tunes/good_morning_1.xml'
-= image_tag '/tunes/good_morning_1.thumb.png'
+= partial 'tune', locals: {tune: 'good_morning_1'}
 
 %h2#tune_2a 2a. Good Morning [and Freilachs] (Gm)
-= image_tag '/tunes/good_morning_2a.thumb.png'
+= partial 'tune', locals: {tune: 'good_morning_2a'}
 
 %h2#tune_2b 2b. [Good Morning and] Freilachs] (Gm)
-= image_tag '/tunes/good_morning_2b.thumb.png'
+= partial 'tune', locals: {tune: 'good_morning_2b'}
