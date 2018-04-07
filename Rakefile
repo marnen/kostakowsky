@@ -15,16 +15,16 @@ namespace :build do
     sh 'mscore', '-o', pdf.name, source
   end
 
-  rule '.screen.png' => '.pdf' do |png|
-    pdf = Grim.reap png.source
-    pdf[0].save png.name
-  end
-
-  rule '.thumb.png' => '.screen.png' do |png|
-    screen = ChunkyPNG::Image.from_file png.source
-    scale = 0.5
-    thumb = screen.resample((screen.width * scale).to_i, (screen.height * scale).to_i)
-    thumb.save png.name
+  rule '.thumb.png' => '.pdf' do |png|
+    Dir.mktmpdir do |tmp|
+      tmp_name = "#{tmp}/page1.png"
+      pdf = Grim.reap png.source
+      pdf[0].save tmp_name
+      screen = ChunkyPNG::Image.from_file tmp_name
+      scale = 0.5
+      thumb = screen.resample((screen.width * scale).to_i, (screen.height * scale).to_i)
+      thumb.save png.name
+    end
   end
 
   task thumbnail: output_files.ext('.thumb.png')
