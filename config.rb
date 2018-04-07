@@ -34,6 +34,12 @@ activate :external_pipeline,
   source: ".tmp/dist",
   latency: 1
 
+activate :external_pipeline,
+  name: :rake,
+  command: 'OUTPUT_DIR=.tmp/dist rake convert_tunes',
+  source: '.tmp/dist',
+  latency: 1
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
