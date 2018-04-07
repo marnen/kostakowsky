@@ -7,4 +7,5 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
 gem 'chunky_png'
 gem 'grim'
+gem 'guard-rake'
 gem 'rake', '~> 12.3.1'

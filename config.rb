@@ -36,7 +36,7 @@ activate :external_pipeline,
 
 activate :external_pipeline,
   name: :rake,
-  command: 'OUTPUT_DIR=.tmp/dist rake convert_tunes',
+  command: build? ? 'OUTPUT_DIR=.tmp/dist bundle exec rake convert_tunes' : 'bundle exec guard -P rake',
   source: '.tmp/dist',
   latency: 1
 
