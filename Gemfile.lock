@@ -99,8 +99,11 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    mini_portile2 (2.3.0)
     minitest (5.11.3)
     nenv (0.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -156,6 +159,7 @@ DEPENDENCIES
   guard-rspec
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
+  nokogiri (~> 1.8.2)
   rake (~> 12.3.1)
   tzinfo-data
   wdm (~> 0.1)
