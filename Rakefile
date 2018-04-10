@@ -1,5 +1,6 @@
 require 'chunky_png'
 require 'grim'
+require 'tmpdir'
 
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
