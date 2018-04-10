@@ -142,6 +142,36 @@ describe MusicXmlHelpers do
           end
         end
       end
+
+      context 'multiple keys' do
+        let(:body) do
+          strip_heredoc <<-"XML"
+            <part-list><score-part id="P1"><part-name /></score-part></part-list>
+            <part id="P1">
+              <measure number="1">
+                <attributes>
+                  <key>
+                    <fifths>0</fifths>
+                    <mode>major</mode>
+                  </key>
+                </attributes>
+              </measure>
+              <measure number="2">
+                <attributes>
+                  <key>
+                    <fifths>3</fifths>
+                    <mode>minor</mode>
+                  </key>
+                </attributes>
+              </measure>
+            </part>
+          XML
+        end
+
+        it 'returns all key names, comma-separated' do
+          expect(subject).to be == 'C, F#m'
+        end
+      end
     end
 
     describe '#title' do

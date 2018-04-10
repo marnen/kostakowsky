@@ -35,10 +35,11 @@ module MusicXmlHelpers
 
   def key(filename)
     xml = xml(filename)
-    key = xml.at_xpath('//key')
-    fifths = key.at_xpath('./fifths').text.to_i
-    mode = key.at_xpath('./mode').text
-    key_name fifths, mode: mode
+    xml.xpath('//key').map do |key|
+      fifths = key.at_xpath('./fifths').text.to_i
+      mode = key.at_xpath('./mode').text
+      key_name fifths, mode: mode
+    end.join ', '
   end
 
   def title(filename, full: false)
