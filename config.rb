@@ -50,6 +50,9 @@ activate :external_pipeline,
 #   end
 # end
 
+require 'helpers/music_xml_helpers'
+helpers MusicXmlHelpers
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
