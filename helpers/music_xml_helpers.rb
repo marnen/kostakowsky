@@ -25,16 +25,24 @@ module MusicXmlHelpers
   end
 
   def key(filename)
-    xml = Nokogiri::XML File.new(filename)
+    xml = xml(filename)
     key = xml.at_xpath('//key')
     fifths = key.at_xpath('./fifths').text.to_i
     MAJOR_KEYS[fifths]
   end
 
   def title(filename, full: false)
-    xml = Nokogiri::XML File.new(filename)
+    xml = xml(filename)
     title = xml.at_xpath('//work/work-title').text
     subtitle = xml.at_xpath('//work/work-number')&.text if full
     [title, subtitle].compact.join ' '
+  end
+
+  private
+
+  def xml(filename)
+    @xml ||= {}
+    filename = File.absolute_path filename
+    @xml[filename] ||= Nokogiri::XML(File.new filename)
   end
 end
