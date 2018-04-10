@@ -22,6 +22,12 @@ module MusicXmlHelpers
     10 => 'A#'
   }
 
+  MODES = {
+    'major' => {adjust: 0, suffix: ''},
+    'minor' => {adjust: 3, suffix: 'm'},
+    'dorian' => {adjust: 2, suffix: 'dor'},
+  }
+
 
   def id(filename)
     filename.gsub(%r{\.[^.]+$}, '').split('_').last
@@ -32,12 +38,7 @@ module MusicXmlHelpers
     key = xml.at_xpath('//key')
     fifths = key.at_xpath('./fifths').text.to_i
     mode = key.at_xpath('./mode').text
-    case mode
-    when 'major'
-      MAJOR_KEYS[fifths]
-    when 'minor'
-      "#{MAJOR_KEYS[fifths + 3]}m"
-    end
+    key_name fifths, mode: mode
   end
 
   def title(filename, full: false)
@@ -48,6 +49,12 @@ module MusicXmlHelpers
   end
 
   private
+
+  def key_name(fifths, mode: 'major')
+    mode = MODES[mode] || raise(ArgumentError, "Unknown mode: #{inspect mode}. Recognized modes are: {MODES.keys.join ', '}.")
+    adjusted_fifths = fifths + mode[:adjust]
+    MAJOR_KEYS[adjusted_fifths] + mode[:suffix]
+  end
 
   def xml(filename)
     @xml ||= {}

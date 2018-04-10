@@ -115,6 +115,33 @@ describe MusicXmlHelpers do
           end
         end
       end
+
+      context 'dorian' do
+        let(:mode) { 'dorian' }
+
+        {
+          -7 => 'Db',
+          -6 => 'Ab',
+          -5 => 'Eb',
+          -4 => 'Bb',
+          -3 => 'F',
+          -2 => 'C',
+          -1 => 'G',
+          0 => 'D',
+          1 => 'A',
+          2 => 'E',
+          3 => 'B',
+          4 => 'F#',
+          5 => 'C#',
+          6 => 'G#',
+          7 => 'D#'
+        }.each do |fifths, key|
+          context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
+            let(:fifths) { fifths }
+            it { is_expected.to be == "#{key}dor" }
+          end
+        end
+      end
     end
 
     describe '#title' do
