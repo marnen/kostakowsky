@@ -88,6 +88,33 @@ describe MusicXmlHelpers do
           end
         end
       end
+
+      context 'minor' do
+        let(:mode) { 'minor' }
+
+        {
+          -7 => 'Ab',
+          -6 => 'Eb',
+          -5 => 'Bb',
+          -4 => 'F',
+          -3 => 'C',
+          -2 => 'G',
+          -1 => 'D',
+          0 => 'A',
+          1 => 'E',
+          2 => 'B',
+          3 => 'F#',
+          4 => 'C#',
+          5 => 'G#',
+          6 => 'D#',
+          7 => 'A#'
+        }.each do |fifths, key|
+          context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
+            let(:fifths) { fifths }
+            it { is_expected.to be == "#{key}m" }
+          end
+        end
+      end
     end
 
     describe '#title' do

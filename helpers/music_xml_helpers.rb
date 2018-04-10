@@ -16,7 +16,10 @@ module MusicXmlHelpers
     4 => 'E',
     5 => 'B',
     6 => 'F#',
-    7 => 'C#'
+    7 => 'C#',
+    8 => 'G#',
+    9 => 'D#',
+    10 => 'A#'
   }
 
 
@@ -28,7 +31,13 @@ module MusicXmlHelpers
     xml = xml(filename)
     key = xml.at_xpath('//key')
     fifths = key.at_xpath('./fifths').text.to_i
-    MAJOR_KEYS[fifths]
+    mode = key.at_xpath('./mode').text
+    case mode
+    when 'major'
+      MAJOR_KEYS[fifths]
+    when 'minor'
+      "#{MAJOR_KEYS[fifths + 3]}m"
+    end
   end
 
   def title(filename, full: false)
