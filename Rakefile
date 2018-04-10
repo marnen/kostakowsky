@@ -2,31 +2,42 @@ require 'chunky_png'
 require 'grim'
 require 'tmpdir'
 
+ALL_XML = 'source/tunes/**/*.xml'
+
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
 
+task :guard, [:paths] do |_, args|
+  paths = Array(args.paths) - ['Rakefile']
+  @source_files = Rake::FileList.new(paths.empty? ? ALL_XML : paths)
+  Rake::Task['convert_tunes'].invoke
+end
+
 namespace :build do
-  task all: ['build:abc', 'build:pdf', 'build:thumbnail']
+  task all: [:abc, :pdf, :thumbnail]
 
-  source_files = Rake::FileList.new('source/tunes/**/*.xml')
-  output_dir = ENV['OUTPUT_DIR'] || 'source'
-  output_files = source_files.pathmap("%{^source,#{output_dir}}p")
+  task :set_files do
+    @source_files ||= Rake::FileList.new(ALL_XML)
+    @output_dir = ENV['OUTPUT_DIR'] || 'source'
+    @output_files = @source_files.pathmap("%{^source,#{@output_dir}}p")
+  end
 
-  rule '.abc' do |abc|
-    source = music_xml abc.name, output_dir
+  rule '.abc' => ->(abc) { music_xml abc } do |abc|
+    puts abc.name
     Dir.mktmpdir do |tmp|
-      sh 'xml2abc.py', '-o', tmp, source
+      sh 'xml2abc.py', '-o', tmp, abc.source
       File.write abc.name, `iconv -f iso-8859-1 -t utf-8 '#{tmp}/#{File.basename abc.name}'`
     end
   end
 
-  rule '.pdf' do |pdf|
-    source = music_xml pdf.name, output_dir
+  rule '.pdf' => ->(pdf) { music_xml pdf } do |pdf|
+    puts pdf.name
     mkdir_p pdf.name.pathmap('%d')
-    sh 'mscore', '-o', pdf.name, source
+    sh 'mscore', '-o', pdf.name, pdf.source
   end
 
   rule '.thumb.png' => '.pdf' do |png|
+    puts png.name
     Dir.mktmpdir do |tmp|
       tmp_name = "#{tmp}/page1.png"
       pdf = Grim.reap png.source
@@ -38,13 +49,17 @@ namespace :build do
     end
   end
 
-  task abc: output_files.ext('.abc')
-  task pdf: output_files.ext('.pdf')
-  task thumbnail: output_files.ext('.thumb.png')
+  task(abc: :set_files) { puts @output_files.inspect; @output_files.ext('.abc').each {|file| Rake::FileTask[file].invoke } }
+  task(pdf: :set_files) { @output_files.ext('.pdf').each {|file| Rake::FileTask[file].invoke } }
+  task(thumbnail: :set_files) { @output_files.ext('.thumb.png').each {|file| Rake::FileTask[file].invoke } }
 
   private
 
-  def music_xml(filename, output_dir)
-    filename.pathmap("%{^#{output_dir},source}X.xml")
+  def method_name
+
+  end
+
+  def music_xml(filename)
+    filename.pathmap("%{^#{@output_dir},source}X.xml")
   end
 end

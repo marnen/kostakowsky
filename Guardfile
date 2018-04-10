@@ -15,7 +15,7 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-guard 'rake', task: :convert_tunes do
+guard 'rake', task: :guard do
   ENV['OUTPUT_DIR'] = File.join(File.dirname(__FILE__), '.tmp/dist')
   watch(%r{\bsource/tunes/.+\.xml$})
   watch(%r{\bRakefile$})
