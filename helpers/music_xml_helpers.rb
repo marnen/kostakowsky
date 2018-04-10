@@ -5,8 +5,10 @@ module MusicXmlHelpers
     filename.gsub(%r{\.[^.]+$}, '').split('_').last
   end
 
-  def title(filename)
+  def title(filename, full: false)
     xml = Nokogiri::XML File.new(filename)
-    xml.at_xpath('//work/work-title').text
+    title = xml.at_xpath('//work/work-title').text
+    subtitle = xml.at_xpath('//work/work-number')&.text if full
+    [title, subtitle].compact.join ' '
   end
 end
