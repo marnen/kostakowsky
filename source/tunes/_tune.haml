@@ -1,9 +1,11 @@
 - id = id(tune)
+- xml = File.join(config[:source], "tunes/#{tune}.xml")
 
 %article
   %h2{id: "tune_#{id}"}
     == #{id}.
-    = title(File.join(config[:source], "tunes/#{tune}.xml"), full: true)
+    = title(xml, full: true).chomp '.'
+    == (#{key xml})
 %p
   Download:
   = link_to 'ABC', "/tunes/#{tune}.abc"
