@@ -7,6 +7,20 @@ describe MusicXmlHelpers do
   let(:host_class) { Class.new { include MusicXmlHelpers } }
   let(:helpers) { host_class.new }
 
+  describe '#id' do
+    let(:words) { Faker::Lorem.words(rand(3..10)) }
+    let(:filename) { words.join('_') }
+
+    it 'returns the last element of the filename' do
+      expect(helpers.id filename).to be == words.last
+    end
+
+    it 'ignores extensions on the filename' do
+      extension = Faker::File.extension
+      expect(helpers.id "#{filename}.#{extension}").to be == words.last
+    end
+  end
+
   describe '#title' do
     let(:title) { Faker::Lorem.sentence }
     let(:xml) do
