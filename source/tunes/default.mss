@@ -246,12 +246,10 @@
     <TextStyle>
       <halign>center</halign>
       <valign>center</valign>
-      <xoffset>0</xoffset>
-      <yoffset>-0.75</yoffset>
       <offsetType>spatium</offsetType>
       <name>Fingering</name>
-      <family>FreeSerif</family>
-      <size>8</size>
+      <family>Emmentaler</family>
+      <size>11</size>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       </TextStyle>
     <TextStyle>

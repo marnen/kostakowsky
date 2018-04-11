@@ -76,12 +76,10 @@
       <TextStyle>
         <halign>center</halign>
         <valign>center</valign>
-        <xoffset>0</xoffset>
-        <yoffset>-0.75</yoffset>
         <offsetType>spatium</offsetType>
         <name>Fingering</name>
-        <family>FreeSerif</family>
-        <size>8</size>
+        <family>Emmentaler</family>
+        <size>11</size>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
       <TextStyle>
@@ -2169,7 +2167,7 @@
           <grace16/>
           <Note>
             <Fingering>
-              <pos x="0.860797" y="-5.16984"/>
+              <pos x="0.860797" y="-4.41984"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2191,7 +2189,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.694375" y="-2.24"/>
+              <pos x="0.694375" y="-1.49"/>
               <text>2</text>
               </Fingering>
             <pitch>72</pitch>
@@ -2275,7 +2273,7 @@
           <Slur type="stop" id="35"/>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>81</pitch>
@@ -2320,7 +2318,7 @@
           <Beam>38</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>2</text>
               </Fingering>
             <pitch>79</pitch>
@@ -2376,7 +2374,7 @@
           <Beam>39</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2562,7 +2560,7 @@
           <Beam>41</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2670,7 +2668,7 @@
               <subtype>sharp</subtype>
               </Accidental>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>78</pitch>
@@ -2784,7 +2782,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>81</pitch>
@@ -2889,7 +2887,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>4</text>
               </Fingering>
             <pitch>79</pitch>
@@ -2940,7 +2938,7 @@
           <Beam>49</Beam>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -3048,7 +3046,7 @@
               <subtype>sharp</subtype>
               </Accidental>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>78</pitch>
@@ -3359,7 +3357,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3467,7 +3465,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>
@@ -3572,7 +3570,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3687,7 +3685,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.694375" y="-2.24"/>
+              <pos x="0.694375" y="-1.49"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>
@@ -3704,7 +3702,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3809,7 +3807,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
-              <pos x="0.658281" y="-2.25188"/>
+              <pos x="0.658281" y="-1.50188"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>
