@@ -66,7 +66,7 @@
       <print>
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <top-system-distance>151.70</top-system-distance>
@@ -365,7 +365,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -759,7 +759,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -841,7 +841,7 @@
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
         </note>
-      <note default-x="108.78" default-y="-25.00">
+      <note default-x="108.77" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -1114,8 +1114,8 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
           </system-layout>
@@ -1379,7 +1379,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -1755,7 +1755,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -2011,25 +2011,28 @@
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
         <notations>
+          <slur type="start" number="1"/>
           <technical>
             <fingering>1</fingering>
             </technical>
           </notations>
         </note>
-      <note default-x="18.36" default-y="5.00">
+      <note default-x="18.35" default-y="5.00">
         <grace/>
         <pitch>
           <step>G</step>
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <stem>up</stem>
         <beam number="1">end</beam>
+        <beam number="2">end</beam>
         </note>
       <note default-x="30.07" default-y="-15.00">
         <pitch>
@@ -2042,6 +2045,7 @@
         <dot/>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <technical>
             <fingering>2</fingering>
             </technical>
@@ -2052,7 +2056,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -2397,10 +2401,14 @@
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
         <beam number="1">begin</beam>
+        <beam number="2">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="29.81" default-y="-5.00">
         <grace/>
@@ -2410,9 +2418,10 @@
           <octave>5</octave>
           </pitch>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
         <stem>up</stem>
         <beam number="1">end</beam>
+        <beam number="2">end</beam>
         </note>
       <note default-x="41.52" default-y="-10.00">
         <pitch>
@@ -2424,6 +2433,9 @@
         <type>half</type>
         <dot/>
         <stem>down</stem>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
@@ -2434,7 +2446,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -2452,7 +2464,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <segno default-x="-4.00" default-y="20.00"/>
+          <segno default-x="-8.00" default-y="20.00"/>
           </direction-type>
         <sound segno="segno"/>
         </direction>
@@ -2489,6 +2501,9 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="160.22" default-y="-5.00">
         <pitch>
@@ -2501,6 +2516,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="204.71" default-y="-10.00">
         <pitch>
@@ -2523,6 +2541,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="249.19" default-y="-5.00">
         <pitch>
@@ -2535,6 +2556,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       </measure>
     <measure number="36" width="126.87">
@@ -2600,6 +2624,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="58.65" default-y="5.00">
         <pitch>
@@ -2611,6 +2638,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="98.88" default-y="0.00">
         <pitch>
@@ -2633,6 +2663,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="139.11" default-y="5.00">
         <pitch>
@@ -2644,6 +2677,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       </measure>
     <measure number="38" width="145.08">
@@ -2669,6 +2705,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="54.27" default-y="5.00">
         <pitch>
@@ -2680,6 +2719,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="88.58" default-y="10.00">
         <pitch>
@@ -2717,6 +2759,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="63.26" default-y="15.00">
         <pitch>
@@ -2729,6 +2774,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -2798,7 +2844,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -2900,6 +2946,9 @@
         <type>eighth</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="62.73" default-y="-5.00">
         <pitch>
@@ -2912,6 +2961,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="113.47" default-y="-10.00">
         <pitch>
@@ -2934,6 +2986,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="164.20" default-y="-5.00">
         <pitch>
@@ -2946,6 +3001,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       </measure>
     <measure number="44" width="149.04">
@@ -3011,6 +3069,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="64.19" default-y="5.00">
         <pitch>
@@ -3022,6 +3083,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="109.96" default-y="0.00">
         <pitch>
@@ -3044,6 +3108,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="155.73" default-y="5.00">
         <pitch>
@@ -3055,6 +3122,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       </measure>
     <measure number="46" width="167.25">
@@ -3080,6 +3150,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="59.31" default-y="5.00">
         <pitch>
@@ -3091,6 +3164,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="100.21" default-y="10.00">
         <pitch>
@@ -3107,7 +3183,7 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>99.11</system-distance>
@@ -3134,6 +3210,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="124.45" default-y="5.00">
         <pitch>
@@ -3145,6 +3224,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -3366,6 +3446,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="63.26" default-y="25.00">
         <pitch>
@@ -3377,6 +3460,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -3464,7 +3548,7 @@
       <print new-page="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
+            <left-margin>0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <top-system-distance>70.00</top-system-distance>
@@ -3494,6 +3578,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="109.33" default-y="5.00">
         <pitch>
@@ -3505,6 +3592,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -3613,6 +3701,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="63.26" default-y="25.00">
         <pitch>
@@ -3624,6 +3715,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -3762,6 +3854,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="63.26" default-y="25.00">
         <pitch>
@@ -3773,6 +3868,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -3794,8 +3890,8 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>-0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
           <system-distance>150.00</system-distance>
           </system-layout>
@@ -3890,6 +3986,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="50.85" default-y="5.00">
         <pitch>
@@ -3901,6 +4000,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -4005,6 +4105,9 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="54.93" default-y="5.00">
         <pitch>
@@ -4016,6 +4119,7 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations>
+          <slur type="stop" number="1"/>
           <slur type="start" number="1"/>
           </notations>
         </note>
@@ -4140,7 +4244,7 @@
     <measure number="67" width="132.64">
       <direction placement="above">
         <direction-type>
-          <segno default-x="-4.00" default-y="20.00"/>
+          <segno default-x="-8.00" default-y="20.00"/>
           </direction-type>
         <sound segno="segno"/>
         </direction>
