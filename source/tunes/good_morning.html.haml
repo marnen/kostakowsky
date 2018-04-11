@@ -2,11 +2,5 @@
 title: Good Morning [Dobriden]
 ---
 
-%h2#tune_1 1. Good Morning and Bulgar (Gm)
-= partial 'tune', locals: {tune: 'good_morning_1'}
-
-%h2#tune_2a 2a. Good Morning [and Freilachs] (Gm)
-= partial 'tune', locals: {tune: 'good_morning_2a'}
-
-%h2#tune_2b 2b. [Good Morning and] Freilachs] (Gm)
-= partial 'tune', locals: {tune: 'good_morning_2b'}
+- ['1', '2a', '2b'].each do |id|
+  = partial 'tune', locals: {tune: "good_morning_#{id}"}
