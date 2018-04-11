@@ -3401,7 +3401,7 @@
         </Measure>
       <Measure number="53">
         <LayoutBreak>
-          <subtype>page</subtype>
+          <subtype>line</subtype>
           </LayoutBreak>
         <Slur id="63">
           <track>0</track>
