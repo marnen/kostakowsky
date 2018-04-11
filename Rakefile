@@ -2,42 +2,44 @@ require 'chunky_png'
 require 'grim'
 require 'tmpdir'
 
-ALL_XML = 'source/tunes/**/*.musicxml'
+ALL_TUNES = 'source/tunes/**/*.mscx'
 
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
 
 task :guard, [:paths] do |_, args|
   paths = Array(args.paths) - ['Rakefile']
-  @source_files = Rake::FileList.new(paths.empty? ? ALL_XML : paths)
+  @source_files = Rake::FileList.new(paths.empty? ? ALL_TUNES : paths)
   Rake::Task['convert_tunes'].invoke
 end
 
 namespace :build do
-  task all: [:abc, :pdf, :thumbnail]
+  task all: [:musicxml, :abc, :pdf, :thumbnail]
 
   task :set_files do
-    @source_files ||= Rake::FileList.new(ALL_XML)
+    @source_files ||= Rake::FileList.new(ALL_TUNES)
     @output_dir = ENV['OUTPUT_DIR'] || 'source'
     @output_files = @source_files.pathmap("%{^source,#{@output_dir}}p")
   end
 
-  rule '.abc' => ->(abc) { music_xml abc } do |abc|
-    puts abc.name
+  rule '.abc' => '.xml' do |abc|
     Dir.mktmpdir do |tmp|
       sh 'xml2abc.py', '-o', tmp, abc.source
       File.write abc.name, `iconv -f iso-8859-1 -t utf-8 '#{tmp}/#{File.basename abc.name}'`
     end
   end
 
-  rule '.pdf' => ->(pdf) { music_xml pdf } do |pdf|
-    puts pdf.name
-    mkdir_p pdf.name.pathmap('%d')
-    sh 'mscore', '-S', 'source/default.mss', '-o', pdf.name, pdf.source
+  rule '.xml' => ->(xml) { source_for xml } do |xml|
+    mkdir_for xml.name
+    sh 'mscore', '-S', 'source/default.mss', '-o', xml.name, xml.source
+  end
+
+  rule '.pdf' => ->(pdf) { source_for pdf } do |pdf|
+    mkdir_for pdf.name
+    sh 'mscore', '-o', pdf.name, pdf.source
   end
 
   rule '.thumb.png' => '.pdf' do |png|
-    puts png.name
     Dir.mktmpdir do |tmp|
       tmp_name = "#{tmp}/page1.png"
       pdf = Grim.reap png.source
@@ -51,6 +53,7 @@ namespace :build do
 
   {
     abc: '.abc',
+    musicxml: '.xml',
     pdf: '.pdf',
     thumbnail: '.thumb.png'
   }.each do |name, extension|
@@ -61,7 +64,11 @@ namespace :build do
 
   private
 
-  def music_xml(filename)
-    filename.pathmap("%{^#{@output_dir},source}X.musicxml")
+  def mkdir_for(filename)
+    mkdir_p filename.pathmap('%d')
+  end
+
+  def source_for(filename, extension: '.mscx')
+    filename.pathmap("%{^#{@output_dir},source}X#{extension}")
   end
 end
