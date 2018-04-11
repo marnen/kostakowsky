@@ -41,10 +41,10 @@
     <lyric-font font-family="FreeSerif" font-size="11"/>
     </defaults>
   <credit page="1">
-    <credit-words default-x="595.276" default-y="1627.09" justify="center" valign="top" font-size="24">Good Morning</credit-words>
+    <credit-words default-x="595.275" default-y="1627.09" justify="center" valign="top" font-size="24">Good Morning</credit-words>
     </credit>
   <credit page="1">
-    <credit-words default-x="595.276" default-y="1570.39" justify="center" valign="top" font-size="14">And Bulgar.</credit-words>
+    <credit-words default-x="595.275" default-y="1570.39" justify="center" valign="top" font-size="14">And Bulgar.</credit-words>
     </credit>
   <part-list>
     <score-part id="P1">
@@ -55,6 +55,7 @@
       <midi-device id="P1-I1" port="1"></midi-device>
       <midi-instrument id="P1-I1">
         <midi-channel>1</midi-channel>
+        <midi-program>1</midi-program>
         <volume>78.7402</volume>
         <pan>0</pan>
         </midi-instrument>
@@ -65,10 +66,10 @@
       <print>
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <top-system-distance>170.00</top-system-distance>
+          <top-system-distance>151.70</top-system-distance>
           </system-layout>
         </print>
       <barline location="left">
@@ -364,10 +365,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="73.18" default-y="-45.00">
@@ -492,7 +493,7 @@
           <slur type="start" number="1"/>
           </notations>
         </note>
-      <note default-x="142.10" default-y="-25.00">
+      <note default-x="142.09" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>4</octave>
@@ -758,10 +759,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="88.59" default-y="-35.00">
@@ -1113,10 +1114,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="73.18" default-y="-45.00">
@@ -1181,7 +1182,7 @@
           <slur type="stop" number="1"/>
           </notations>
         </note>
-      <note default-x="205.56" default-y="-45.00">
+      <note default-x="205.55" default-y="-45.00">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -1378,10 +1379,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>-0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="73.18" default-y="-10.00">
@@ -1754,10 +1755,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <barline location="left">
@@ -2051,10 +2052,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="73.18" default-y="-15.00">
@@ -2433,10 +2434,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <barline location="left">
@@ -2451,7 +2452,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <segno default-x="-8.00" default-y="20.00"/>
+          <segno default-x="-4.00" default-y="20.00"/>
           </direction-type>
         <sound segno="segno"/>
         </direction>
@@ -2797,10 +2798,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="73.18" default-y="10.00">
@@ -3106,10 +3107,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>97.08</system-distance>
+          <system-distance>99.11</system-distance>
           </system-layout>
         </print>
       <note default-x="88.59" default-y="0.00">
@@ -3463,7 +3464,7 @@
       <print new-page="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
           <top-system-distance>70.00</top-system-distance>
@@ -3793,8 +3794,8 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>-0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>0.00</right-margin>
             </system-margins>
           <system-distance>150.00</system-distance>
           </system-layout>
@@ -4139,7 +4140,7 @@
     <measure number="67" width="132.64">
       <direction placement="above">
         <direction-type>
-          <segno default-x="-8.00" default-y="20.00"/>
+          <segno default-x="-4.00" default-y="20.00"/>
           </direction-type>
         <sound segno="segno"/>
         </direction>
