@@ -2,4 +2,5 @@
 title: Good Morning [Dobriden]
 ---
 
-%pre.abc= partial "good_morning.abc"
+- ['1', '2a', '2b'].each do |id|
+  = partial 'tune', locals: {tune: "good_morning_#{id}"}

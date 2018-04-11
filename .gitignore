@@ -5,3 +5,4 @@
 .tmp/
 build/
 node_modules/
+bin/**/*.pyc

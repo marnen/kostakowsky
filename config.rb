@@ -34,6 +34,12 @@ activate :external_pipeline,
   source: ".tmp/dist",
   latency: 1
 
+activate :external_pipeline,
+  name: :rake,
+  command: build? ? 'OUTPUT_DIR=.tmp/dist bundle exec rake convert_tunes' : 'bundle exec guard -P rake',
+  source: '.tmp/dist',
+  latency: 1
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
@@ -43,6 +49,9 @@ activate :external_pipeline,
 #     'Helping'
 #   end
 # end
+
+require 'helpers/music_xml_helpers'
+helpers MusicXmlHelpers
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

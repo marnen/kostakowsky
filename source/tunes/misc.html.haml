@@ -4,4 +4,5 @@ title: Miscellaneous Tunes
 
 %p These tunes are not numbered in the source, and appear to be odds and ends, as it were.
 
-%pre.abc= partial 'misc.abc'
+- (1..3).each do |n|
+  = partial 'tune', locals: {tune: "misc_#{n}"}

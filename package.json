@@ -7,7 +7,6 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "abcjs": "^4.0.1",
     "babel-brunch": "^6.1.1",
     "brunch": "^2.10.12",
     "clipboard": "^2.0.0",
