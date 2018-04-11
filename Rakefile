@@ -14,7 +14,7 @@ task :guard, [:paths] do |_, args|
 end
 
 namespace :build do
-  task all: [:musicxml, :abc, :pdf, :thumbnail]
+  task all: [:mscz, :musicxml, :abc, :pdf, :thumbnail]
 
   task :set_files do
     @source_files ||= Rake::FileList.new(ALL_TUNES)
@@ -29,12 +29,17 @@ namespace :build do
     end
   end
 
-  rule '.xml' => ->(xml) { source_for xml } do |xml|
+  rule '.xml' => '.mscz' do |xml|
     mkdir_for xml.name
     muse_score '-S', 'source/default.mss', '-o', xml.name, xml.source
   end
 
-  rule '.pdf' => ->(pdf) { source_for pdf } do |pdf|
+  rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|
+    mkdir_for mscz.name
+    muse_score '-o', mscz.name, mscz.source
+  end
+
+  rule '.pdf' => '.mscz' do |pdf|
     mkdir_for pdf.name
     muse_score '-o', pdf.name, pdf.source
   end
@@ -54,6 +59,7 @@ namespace :build do
   {
     abc: '.abc',
     musicxml: '.xml',
+    mscz: '.mscz',
     pdf: '.pdf',
     thumbnail: '.thumb.png'
   }.each do |name, extension|
