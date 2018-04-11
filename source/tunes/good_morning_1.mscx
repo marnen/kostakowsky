@@ -76,6 +76,8 @@
       <TextStyle>
         <halign>center</halign>
         <valign>center</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-0.75</yoffset>
         <offsetType>spatium</offsetType>
         <name>Fingering</name>
         <family>FreeSerif</family>
@@ -500,14 +502,14 @@
         <Text>
           <style>Title</style>
           <size>10</size>
-          <text><font size="24"/>Good Morning</text>
+          <text><font size="24"></font>Good Morning</text>
           </Text>
         <Text>
           <style>Subtitle</style>
           <xoffset>0</xoffset>
           <yoffset>10.0013</yoffset>
           <size>10</size>
-          <text><font size="14"/>And Bulgar.</text>
+          <text><font size="14"></font>And Bulgar.</text>
           </Text>
         </VBox>
       <Measure number="1">
@@ -533,7 +535,7 @@
           <tempo>2</tempo>
           <followText>1</followText>
           <size>10</size>
-          <text><font size="14"/><b>Andante.</b></text>
+          <text><font size="14"></font><b>Andante.</b></text>
           </Tempo>
         <Slur id="2">
           <track>0</track>
@@ -1836,7 +1838,6 @@
         <Volta id="28">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -1920,7 +1921,6 @@
         <Volta id="30">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
@@ -2169,6 +2169,7 @@
           <grace16/>
           <Note>
             <Fingering>
+              <pos x="0.860797" y="-5.16984"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2190,6 +2191,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.694375" y="-2.24"/>
               <text>2</text>
               </Fingering>
             <pitch>72</pitch>
@@ -2273,6 +2275,7 @@
           <Slur type="stop" id="35"/>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>81</pitch>
@@ -2317,6 +2320,7 @@
           <Beam>38</Beam>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>2</text>
               </Fingering>
             <pitch>79</pitch>
@@ -2372,6 +2376,7 @@
           <Beam>39</Beam>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2413,7 +2418,6 @@
         <Volta id="36">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -2483,7 +2487,6 @@
         <Volta id="39">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
@@ -2547,7 +2550,7 @@
           <tempo>2</tempo>
           <followText>1</followText>
           <size>10</size>
-          <text><font size="14"/><b>Allº moderato.</b></text>
+          <text><font size="14"></font><b>Allº moderato.</b></text>
           </Tempo>
         <endSpanner id="39"/>
         <Beam id="41">
@@ -2559,6 +2562,7 @@
           <Beam>41</Beam>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -2666,6 +2670,7 @@
               <subtype>sharp</subtype>
               </Accidental>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>78</pitch>
@@ -2779,6 +2784,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>81</pitch>
@@ -2883,6 +2889,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>4</text>
               </Fingering>
             <pitch>79</pitch>
@@ -2933,6 +2940,7 @@
           <Beam>49</Beam>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>74</pitch>
@@ -3040,6 +3048,7 @@
               <subtype>sharp</subtype>
               </Accidental>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>78</pitch>
@@ -3291,7 +3300,6 @@
         <Volta id="59">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -3320,10 +3328,6 @@
       <Measure number="51">
         <Marker>
           <style>Repeat Text Right</style>
-          <xoffset>0</xoffset>
-          <yoffset>-2</yoffset>
-          <size>10</size>
-          <bold>0</bold>
           <text>Fine</text>
           <label>fine</label>
           </Marker>
@@ -3331,7 +3335,6 @@
         <Volta id="60">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
@@ -3356,6 +3359,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3463,6 +3467,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>
@@ -3567,6 +3572,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3681,6 +3687,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.694375" y="-2.24"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>
@@ -3697,6 +3704,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>84</pitch>
@@ -3801,6 +3809,7 @@
           <StemDirection>down</StemDirection>
           <Note>
             <Fingering>
+              <pos x="0.658281" y="-2.25188"/>
               <text>1</text>
               </Fingering>
             <pitch>77</pitch>

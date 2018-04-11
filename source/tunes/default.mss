@@ -246,6 +246,8 @@
     <TextStyle>
       <halign>center</halign>
       <valign>center</valign>
+      <xoffset>0</xoffset>
+      <yoffset>-0.75</yoffset>
       <offsetType>spatium</offsetType>
       <name>Fingering</name>
       <family>FreeSerif</family>
