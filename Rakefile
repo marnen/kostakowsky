@@ -2,7 +2,7 @@ require 'chunky_png'
 require 'grim'
 require 'tmpdir'
 
-ALL_XML = 'source/tunes/**/*.xml'
+ALL_XML = 'source/tunes/**/*.musicxml'
 
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
@@ -60,6 +60,6 @@ namespace :build do
   end
 
   def music_xml(filename)
-    filename.pathmap("%{^#{@output_dir},source}X.xml")
+    filename.pathmap("%{^#{@output_dir},source}X.musicxml")
   end
 end
