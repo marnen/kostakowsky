@@ -93,7 +93,7 @@
         </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-x="-52.13" default-y="40.00" font-weight="bold" font-size="12">Andante.</words>
+          <words default-x="-52.13" default-y="40.00" font-weight="bold" font-size="14">Andante.</words>
           </direction-type>
         <sound tempo="120"/>
         </direction>
@@ -2458,7 +2458,7 @@
         </direction>
       <direction placement="above">
         <direction-type>
-          <words default-x="-52.13" default-y="40.00" font-weight="bold" font-size="12">Allº moderato.</words>
+          <words default-x="-52.13" default-y="40.00" font-weight="bold" font-size="14">Allº moderato.</words>
           </direction-type>
         <sound tempo="120"/>
         </direction>
