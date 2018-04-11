@@ -17,7 +17,7 @@
 
 guard 'rake', task: :guard do
   ENV['OUTPUT_DIR'] = File.join(File.dirname(__FILE__), '.tmp/dist')
-  watch(%r{\bsource/tunes/.+\.xml$})
+  watch(%r{\bsource/tunes/.+\.mscx$})
   watch(%r{\bRakefile$})
 end
 

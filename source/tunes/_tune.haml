@@ -1,5 +1,5 @@
 - id ||= id(tune)
-- xml = File.join(config[:source], "tunes/#{tune}.musicxml")
+- xml = File.join(config[:external_asset_dir], "tunes/#{tune}.xml")
 
 %article
   %h2{id: "tune_#{id}"}
@@ -10,5 +10,5 @@
   Download:
   = link_to 'ABC', "/tunes/#{tune}.abc"
   = link_to 'PDF', "/tunes/#{tune}.pdf"
-  = link_to 'MusicXML', "/tunes/#{tune}.musicxml"
+  = link_to 'MusicXML', "/tunes/#{tune}.xml"
 = image_tag "/tunes/#{tune}.thumb.png"
