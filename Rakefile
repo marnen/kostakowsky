@@ -49,15 +49,17 @@ namespace :build do
     end
   end
 
-  task(abc: :set_files) { puts @output_files.inspect; @output_files.ext('.abc').each {|file| Rake::FileTask[file].invoke } }
-  task(pdf: :set_files) { @output_files.ext('.pdf').each {|file| Rake::FileTask[file].invoke } }
-  task(thumbnail: :set_files) { @output_files.ext('.thumb.png').each {|file| Rake::FileTask[file].invoke } }
+  {
+    abc: '.abc',
+    pdf: '.pdf',
+    thumbnail: '.thumb.png'
+  }.each do |name, extension|
+    task(name => :set_files) do
+      @output_files.ext(extension).each {|file| Rake::Task[file].invoke }
+    end
+  end
 
   private
-
-  def method_name
-
-  end
 
   def music_xml(filename)
     filename.pathmap("%{^#{@output_dir},source}X.musicxml")
