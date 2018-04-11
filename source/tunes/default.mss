@@ -456,11 +456,12 @@
       <halign>right</halign>
       <valign>baseline</valign>
       <xoffset>0</xoffset>
-      <yoffset>-2</yoffset>
+      <yoffset>7</yoffset>
       <offsetType>spatium</offsetType>
       <name>Repeat Text Right</name>
       <family>FreeSerif</family>
-      <size>12</size>
+      <size>11</size>
+      <bold>1</bold>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       <systemFlag>1</systemFlag>
       </TextStyle>

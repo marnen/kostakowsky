@@ -3408,7 +3408,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="20.00">Fine</words>
+          <words default-y="-70.00">Fine</words>
           </direction-type>
         <sound fine="yes"/>
         </direction>
@@ -4244,7 +4244,7 @@
     <measure number="67" width="132.64">
       <direction placement="above">
         <direction-type>
-          <segno default-x="-8.00" default-y="20.00"/>
+          <segno default-y="20.00"/>
           </direction-type>
         <sound segno="segno"/>
         </direction>
@@ -4270,7 +4270,7 @@
         </note>
       <direction placement="above">
         <direction-type>
-          <words default-y="20.00">D.S. al Fine</words>
+          <words default-y="-70.00">D.S. al Fine.</words>
           </direction-type>
         <sound dalsegno="segno"/>
         </direction>
