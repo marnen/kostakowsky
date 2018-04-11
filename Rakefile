@@ -33,7 +33,7 @@ namespace :build do
   rule '.pdf' => ->(pdf) { music_xml pdf } do |pdf|
     puts pdf.name
     mkdir_p pdf.name.pathmap('%d')
-    sh 'mscore', '-o', pdf.name, pdf.source
+    sh 'mscore', '-S', 'source/default.mss', '-o', pdf.name, pdf.source
   end
 
   rule '.thumb.png' => '.pdf' do |png|
