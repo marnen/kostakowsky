@@ -31,12 +31,12 @@ namespace :build do
 
   rule '.xml' => ->(xml) { source_for xml } do |xml|
     mkdir_for xml.name
-    sh 'mscore', '-S', 'source/default.mss', '-o', xml.name, xml.source
+    muse_score '-S', 'source/default.mss', '-o', xml.name, xml.source
   end
 
   rule '.pdf' => ->(pdf) { source_for pdf } do |pdf|
     mkdir_for pdf.name
-    sh 'mscore', '-o', pdf.name, pdf.source
+    muse_score '-o', pdf.name, pdf.source
   end
 
   rule '.thumb.png' => '.pdf' do |png|
@@ -66,6 +66,13 @@ namespace :build do
 
   def mkdir_for(filename)
     mkdir_p filename.pathmap('%d')
+  end
+
+  def muse_score(*args, synthesizer: false, midi: false)
+    defaults = [:synthesizer, :midi].map do |option|
+      binding.local_variable_get(option) ? nil : "--no-#{option}"
+    end.compact
+    sh 'mscore', *defaults, *args
   end
 
   def source_for(filename, extension: '.mscx')
