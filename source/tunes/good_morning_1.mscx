@@ -2529,9 +2529,13 @@
         </Measure>
       <Measure number="35">
         <startRepeat/>
+        <MeasureNumber>
+          <style>Measure Number</style>
+          <text>35</text>
+          </MeasureNumber>
         <Marker>
+          <pos x="8.35348" y="-0.883722"/>
           <style>Repeat Text Left</style>
-          <size>10</size>
           <text><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
@@ -3326,7 +3330,7 @@
       <Measure number="51">
         <Marker>
           <style>Repeat Text Right</style>
-          <text>Fine</text>
+          <text>Fine.</text>
           <label>fine</label>
           </Marker>
         <endSpanner id="59"/>
@@ -4046,19 +4050,15 @@
         <endRepeat>2</endRepeat>
         <Marker>
           <style>Repeat Text Left</style>
-          <size>10</size>
+          <halign>right</halign>
           <text><sym>segno</sym></text>
           <label>segno</label>
           </Marker>
         <Jump>
           <style>Repeat Text Right</style>
-          <xoffset>0</xoffset>
-          <yoffset>-2</yoffset>
-          <size>10</size>
-          <bold>0</bold>
-          <text>D.S.</text>
+          <text>D.S. al Fine.</text>
           <jumpTo>segno</jumpTo>
-          <playUntil>end</playUntil>
+          <playUntil>fine</playUntil>
           <continueAt></continueAt>
           <playRepeats>0</playRepeats>
           </Jump>
