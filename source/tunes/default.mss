@@ -117,7 +117,7 @@
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
     <hideEmptyStaves>1</hideEmptyStaves>
-    <dontHidStavesInFirstSystm>1</dontHidStavesInFirstSystm>
+    <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
     <tenutoGateTime>100</tenutoGateTime>
