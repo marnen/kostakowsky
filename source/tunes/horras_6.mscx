@@ -2415,6 +2415,7 @@
           </Marker>
         <KeySig>
           <accidental>0</accidental>
+          <mode>dorian</mode>
           </KeySig>
         <TimeSig>
           <sigN>2</sigN>
