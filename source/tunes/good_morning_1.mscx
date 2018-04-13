@@ -2654,8 +2654,11 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -3032,8 +3035,11 @@
           <durationType>quarter</durationType>
           <StemDirection>down</StemDirection>
           <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>78</pitch>
+            <tpc>20</tpc>
             </Note>
           </Chord>
         </Measure>
