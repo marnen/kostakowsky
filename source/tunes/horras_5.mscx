@@ -417,7 +417,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">Kostakowsky page 13</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">And Serba.</metaTag>
     <metaTag name="workTitle">Rumanian Horra</metaTag>
@@ -2148,7 +2148,7 @@
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="41"/>
+          <Slur type="start" id="40"/>
           <acciaccatura/>
           <Note>
             <pitch>72</pitch>
@@ -2159,8 +2159,8 @@
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
           <Beam>52</Beam>
-          <Slur type="start" id="40"/>
-          <Slur type="stop" id="41"/>
+          <Slur type="stop" id="40"/>
+          <Slur type="start" id="41"/>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -2190,7 +2190,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Beam>52</Beam>
-          <Slur type="stop" id="40"/>
+          <Slur type="stop" id="41"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>

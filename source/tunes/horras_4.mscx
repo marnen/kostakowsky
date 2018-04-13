@@ -417,7 +417,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">Kostakowsky page 12</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">And Serba.</metaTag>
     <metaTag name="workTitle">Rumanian Horra</metaTag>
@@ -1168,7 +1168,7 @@
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="17"/>
+          <Slur type="start" id="16"/>
           <acciaccatura/>
           <Note>
             <Accidental>
@@ -1182,8 +1182,8 @@
           <BeamMode>begin</BeamMode>
           <durationType>eighth</durationType>
           <Beam>22</Beam>
-          <Slur type="start" id="16"/>
-          <Slur type="stop" id="17"/>
+          <Slur type="stop" id="16"/>
+          <Slur type="start" id="17"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1197,7 +1197,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Beam>22</Beam>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="17"/>
           <Note>
             <pitch>62</pitch>
             <tpc>16</tpc>
@@ -2546,7 +2546,7 @@
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="61"/>
+          <Slur type="start" id="60"/>
           <acciaccatura/>
           <Note>
             <pitch>75</pitch>
@@ -2557,8 +2557,8 @@
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
           <Beam>66</Beam>
-          <Slur type="start" id="60"/>
-          <Slur type="stop" id="61"/>
+          <Slur type="stop" id="60"/>
+          <Slur type="start" id="61"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -2567,7 +2567,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Beam>66</Beam>
-          <Slur type="stop" id="60"/>
+          <Slur type="stop" id="61"/>
           <Note>
             <Accidental>
               <subtype>sharp</subtype>
@@ -2619,7 +2619,7 @@
           </Beam>
         <Chord>
           <durationType>eighth</durationType>
-          <Slur type="start" id="64"/>
+          <Slur type="start" id="63"/>
           <acciaccatura/>
           <Note>
             <pitch>77</pitch>
@@ -2630,8 +2630,8 @@
           <BeamMode>begin</BeamMode>
           <durationType>16th</durationType>
           <Beam>68</Beam>
-          <Slur type="start" id="63"/>
-          <Slur type="stop" id="64"/>
+          <Slur type="stop" id="63"/>
+          <Slur type="start" id="64"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -2640,7 +2640,7 @@
         <Chord>
           <durationType>16th</durationType>
           <Beam>68</Beam>
-          <Slur type="stop" id="63"/>
+          <Slur type="stop" id="64"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
