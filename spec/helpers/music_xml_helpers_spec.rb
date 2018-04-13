@@ -45,16 +45,22 @@ describe MusicXmlHelpers do
     after(:each) { FileUtils.remove_entry tmpdir }
 
     describe '#key' do
+      let(:key) do
+        strip_heredoc <<-"XML"
+          <key>
+            <fifths>#{fifths}</fifths>
+            <mode>#{mode}</mode>
+          </key>
+        XML
+      end
+
       let(:body) do
         strip_heredoc <<-"XML"
           <part-list><score-part id="P1"><part-name /></score-part></part-list>
           <part id="P1">
             <measure number="1">
               <attributes>
-                <key>
-                  <fifths>#{fifths}</fifths>
-                  <mode>#{mode}</mode>
-                </key>
+                #{key}
               </attributes>
             </measure>
           </part>
@@ -85,6 +91,14 @@ describe MusicXmlHelpers do
           context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
             let(:fifths) { fifths }
             it { is_expected.to be == key }
+          end
+        end
+
+        context 'null mode' do
+          let(:key) { "<key><fifths>2</fifths></key>" }
+
+          it 'is treated as major' do
+            expect(subject).to be == 'D'
           end
         end
       end
