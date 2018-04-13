@@ -2705,6 +2705,7 @@
           </BarLine>
         </Measure>
       <Measure number="51" len="1/4">
+        <irregular/>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -2716,7 +2717,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="52">
+      <Measure number="51">
         <startRepeat/>
         <endSpanner id="61"/>
         <Beam id="27">
@@ -2800,7 +2801,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="53">
+      <Measure number="52">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2852,7 +2853,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="54">
+      <Measure number="53">
         <Beam id="30">
           </Beam>
         <Tuplet id="6">
@@ -2934,7 +2935,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="55">
+      <Measure number="54">
         <Beam id="32">
           </Beam>
         <Tuplet id="8">
@@ -2987,7 +2988,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="56">
+      <Measure number="55">
         <Beam id="33">
           </Beam>
         <Tuplet id="9">
@@ -3069,7 +3070,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="57">
+      <Measure number="56">
         <Beam id="35">
           </Beam>
         <Tuplet id="11">
@@ -3118,7 +3119,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="58">
+      <Measure number="57">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3203,7 +3204,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="59">
+      <Measure number="58">
         <endRepeat>2</endRepeat>
         <Volta id="62">
           <endHook>1</endHook>
@@ -3293,7 +3294,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="60">
+      <Measure number="59">
         <endSpanner id="62"/>
         <Volta id="63">
           <endHook>1</endHook>
@@ -3310,7 +3311,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="61">
+      <Measure number="60">
         <startRepeat/>
         <endSpanner id="63"/>
         <Ottava id="64">
@@ -3344,7 +3345,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="62">
+      <Measure number="61">
         <Beam id="40">
           </Beam>
         <Chord>
@@ -3386,7 +3387,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="63">
+      <Measure number="62">
         <Beam id="41">
           </Beam>
         <Chord>
@@ -3431,7 +3432,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="64">
+      <Measure number="63">
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -3440,7 +3441,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="65">
+      <Measure number="64">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3514,7 +3515,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="66">
+      <Measure number="65">
         <Slur id="67">
           <track>0</track>
           </Slur>
@@ -3585,7 +3586,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="67">
+      <Measure number="66">
         <Slur id="69">
           <track>0</track>
           </Slur>
@@ -3659,7 +3660,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="68">
+      <Measure number="67">
         <endRepeat>2</endRepeat>
         <Volta id="71">
           <endHook>1</endHook>
@@ -3709,7 +3710,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="69">
+      <Measure number="68">
         <endSpanner id="71"/>
         <Volta id="72">
           <endHook>1</endHook>
@@ -3730,7 +3731,7 @@
           <span>1</span>
           </BarLine>
         </Measure>
-      <Measure number="70">
+      <Measure number="69">
         <endSpanner id="64"/>
         <endSpanner id="72"/>
         <Beam id="49">
@@ -3814,7 +3815,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="71">
+      <Measure number="70">
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3866,7 +3867,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="72">
+      <Measure number="71">
         <Beam id="52">
           </Beam>
         <Tuplet id="19">
@@ -3948,7 +3949,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="73">
+      <Measure number="72">
         <Beam id="54">
           </Beam>
         <Tuplet id="21">
@@ -4001,7 +4002,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="74">
+      <Measure number="73">
         <Beam id="55">
           </Beam>
         <Tuplet id="22">
@@ -4083,7 +4084,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="75">
+      <Measure number="74">
         <Beam id="57">
           </Beam>
         <Tuplet id="24">
@@ -4132,7 +4133,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="76">
+      <Measure number="75">
         <Beam id="58">
           </Beam>
         <Tuplet id="25">
@@ -4214,7 +4215,7 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="77">
+      <Measure number="76">
         <Marker>
           <style>Repeat Text Left</style>
           <halign>right</halign>
