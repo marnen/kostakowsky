@@ -334,7 +334,7 @@
       <offsetType>spatium</offsetType>
       <name>Technique</name>
       <family>FreeSerif</family>
-      <size>12</size>
+      <size>11</size>
       <italic>1</italic>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       </TextStyle>

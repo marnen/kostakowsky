@@ -149,7 +149,7 @@
         <offsetType>spatium</offsetType>
         <name>Technique</name>
         <family>FreeSerif</family>
-        <size>12</size>
+        <size>11</size>
         <italic>1</italic>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
@@ -1111,7 +1111,8 @@
       <Measure number="19">
         <startRepeat/>
         <StaffText>
-          <text>2ⁿᵈ time 8va</text>
+          <style>Technique</style>
+          <text>2<sup>nd</sup> time <sym>ottavaAlta</sym></text>
           </StaffText>
         <endSpanner id="17"/>
         <Slur id="18">
@@ -1812,7 +1813,8 @@
       <Measure number="36">
         <startRepeat/>
         <StaffText>
-          <text>2ⁿᵈ time 8va</text>
+          <style>Technique</style>
+          <text>2<sup>nd</sup> time <sym>ottavaAlta</sym></text>
           </StaffText>
         <Chord>
           <dots>1</dots>
