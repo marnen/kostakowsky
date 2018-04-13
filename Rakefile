@@ -1,11 +1,27 @@
 require 'chunky_png'
 require 'grim'
+require 'json'
 require 'tmpdir'
 
 ALL_TUNES = 'source/tunes/**/*.mscx'
+STYLE_FILE = 'source/default.mss'
 
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
+
+desc 'Update all tunes with default style'
+task :update_style do
+  Dir.mktmpdir do |tmp|
+    job = Dir[ALL_TUNES].map {|tune| {in: tune, out: tune} }
+    job_file = "#{tmp}/update_style.json"
+
+    File.open job_file, mode: 'a' do |file|
+      puts JSON.dump(job).inspect
+      file.write JSON.dump job
+    end
+    muse_score '-S', STYLE_FILE, '-j', job_file
+  end
+end
 
 task :guard, [:paths] do |_, args|
   paths = Array(args.paths) - ['Rakefile']
@@ -31,7 +47,7 @@ namespace :build do
 
   rule '.xml' => '.mscz' do |xml|
     mkdir_for xml.name
-    muse_score '-S', 'source/default.mss', '-o', xml.name, xml.source
+    muse_score '-S', STYLE_FILE, '-o', xml.name, xml.source
   end
 
   rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|
