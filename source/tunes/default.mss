@@ -159,7 +159,7 @@
     <ottavaHook>1.9</ottavaHook>
     <ottavaLineWidth>0.1</ottavaLineWidth>
     <ottavaLineStyle>2</ottavaLineStyle>
-    <ottavaNumbersOnly>1</ottavaNumbersOnly>
+    <ottavaNumbersOnly>0</ottavaNumbersOnly>
     <tabClef>13</tabClef>
     <tremoloWidth>1.2</tremoloWidth>
     <tremoloBoxHeight>0.65</tremoloBoxHeight>
