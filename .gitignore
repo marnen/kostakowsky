@@ -6,3 +6,5 @@
 build/
 node_modules/
 bin/**/*.pyc
+.*.mscx,
+.*.mscz,

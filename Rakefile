@@ -1,43 +1,66 @@
 require 'chunky_png'
 require 'grim'
+require 'json'
 require 'tmpdir'
 
-ALL_XML = 'source/tunes/**/*.xml'
+ALL_TUNES = 'source/tunes/**/*.mscx'
+STYLE_FILE = 'source/default.mss'
 
 desc 'Convert all tunes to all output formats'
 task convert_tunes: 'build:all'
 
+desc 'Update all tunes with default style'
+task :update_style do
+  Dir.mktmpdir do |tmp|
+    job = Dir[ALL_TUNES].map {|tune| {in: tune, out: tune} }
+    job_file = "#{tmp}/update_style.json"
+
+    File.open job_file, mode: 'a' do |file|
+      puts JSON.dump(job).inspect
+      file.write JSON.dump job
+    end
+    muse_score '-S', STYLE_FILE, '-j', job_file
+  end
+end
+
 task :guard, [:paths] do |_, args|
   paths = Array(args.paths) - ['Rakefile']
-  @source_files = Rake::FileList.new(paths.empty? ? ALL_XML : paths)
+  @source_files = Rake::FileList.new(paths.empty? ? ALL_TUNES : paths)
   Rake::Task['convert_tunes'].invoke
 end
 
 namespace :build do
-  task all: [:abc, :pdf, :thumbnail]
+  task all: [:mscz, :musicxml, :abc, :pdf, :thumbnail]
 
   task :set_files do
-    @source_files ||= Rake::FileList.new(ALL_XML)
+    @source_files ||= Rake::FileList.new(ALL_TUNES)
     @output_dir = ENV['OUTPUT_DIR'] || 'source'
     @output_files = @source_files.pathmap("%{^source,#{@output_dir}}p")
   end
 
-  rule '.abc' => ->(abc) { music_xml abc } do |abc|
-    puts abc.name
+  rule '.abc' => '.xml' do |abc|
     Dir.mktmpdir do |tmp|
       sh 'xml2abc.py', '-o', tmp, abc.source
       File.write abc.name, `iconv -f iso-8859-1 -t utf-8 '#{tmp}/#{File.basename abc.name}'`
     end
   end
 
-  rule '.pdf' => ->(pdf) { music_xml pdf } do |pdf|
-    puts pdf.name
-    mkdir_p pdf.name.pathmap('%d')
-    sh 'mscore', '-o', pdf.name, pdf.source
+  rule '.xml' => '.mscz' do |xml|
+    mkdir_for xml.name
+    muse_score '-S', STYLE_FILE, '-o', xml.name, xml.source
+  end
+
+  rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|
+    mkdir_for mscz.name
+    muse_score '-o', mscz.name, mscz.source
+  end
+
+  rule '.pdf' => '.mscz' do |pdf|
+    mkdir_for pdf.name
+    muse_score '-o', pdf.name, pdf.source
   end
 
   rule '.thumb.png' => '.pdf' do |png|
-    puts png.name
     Dir.mktmpdir do |tmp|
       tmp_name = "#{tmp}/page1.png"
       pdf = Grim.reap png.source
@@ -49,17 +72,32 @@ namespace :build do
     end
   end
 
-  task(abc: :set_files) { puts @output_files.inspect; @output_files.ext('.abc').each {|file| Rake::FileTask[file].invoke } }
-  task(pdf: :set_files) { @output_files.ext('.pdf').each {|file| Rake::FileTask[file].invoke } }
-  task(thumbnail: :set_files) { @output_files.ext('.thumb.png').each {|file| Rake::FileTask[file].invoke } }
+  {
+    abc: '.abc',
+    musicxml: '.xml',
+    mscz: '.mscz',
+    pdf: '.pdf',
+    thumbnail: '.thumb.png'
+  }.each do |name, extension|
+    task(name => :set_files) do
+      @output_files.ext(extension).each {|file| Rake::Task[file].invoke }
+    end
+  end
 
   private
 
-  def method_name
-
+  def mkdir_for(filename)
+    mkdir_p filename.pathmap('%d')
   end
 
-  def music_xml(filename)
-    filename.pathmap("%{^#{@output_dir},source}X.xml")
+  def muse_score(*args, synthesizer: false, midi: false)
+    defaults = [:synthesizer, :midi].map do |option|
+      binding.local_variable_get(option) ? nil : "--no-#{option}"
+    end.compact
+    sh 'mscore', *defaults, *args
+  end
+
+  def source_for(filename, extension: '.mscx')
+    filename.pathmap("%{^#{@output_dir},source}X#{extension}")
   end
 end

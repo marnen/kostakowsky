@@ -37,7 +37,7 @@ module MusicXmlHelpers
     xml = xml(filename)
     xml.xpath('//key').map do |key|
       fifths = key.at_xpath('./fifths').text.to_i
-      mode = key.at_xpath('./mode').text
+      mode = key.at_xpath('./mode')&.text || 'major'
       key_name fifths, mode: mode
     end.join ', '
   end
