@@ -417,12 +417,18 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">Kostakowsky page 23</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Bulgar.</metaTag>
     <PageList>
       <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
         <System>
           </System>
         <System>
@@ -598,6 +604,9 @@
           </Chord>
         </Measure>
       <Measure number="4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="6">
           </Beam>
         <Chord>
@@ -777,6 +786,9 @@
           </Chord>
         </Measure>
       <Measure number="10">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="11">
           </Beam>
         <Chord>
@@ -940,7 +952,6 @@
         <Beam id="17">
           </Beam>
         <Tuplet id="1">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -989,7 +1000,6 @@
         <Beam id="18">
           </Beam>
         <Tuplet id="2">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -1031,6 +1041,9 @@
           </Chord>
         </Measure>
       <Measure number="15">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -1063,7 +1076,6 @@
         <Beam id="19">
           </Beam>
         <Tuplet id="3">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -1112,7 +1124,6 @@
         <Beam id="20">
           </Beam>
         <Tuplet id="4">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -1160,7 +1171,6 @@
         <Beam id="21">
           </Beam>
         <Tuplet id="5">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -1209,7 +1219,6 @@
         <Beam id="22">
           </Beam>
         <Tuplet id="6">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -1251,6 +1260,9 @@
           </Chord>
         </Measure>
       <Measure number="19">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="23">
           </Beam>
         <Chord>
@@ -1437,6 +1449,9 @@
           </Chord>
         </Measure>
       <Measure number="22">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Slur id="14">
           <track>0</track>
           </Slur>
@@ -1710,6 +1725,9 @@
           </Chord>
         </Measure>
       <Measure number="27">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Slur id="21">
           <track>0</track>
           </Slur>
@@ -1942,6 +1960,9 @@
           </Chord>
         </Measure>
       <Measure number="31">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Slur id="27">
           <track>0</track>
           </Slur>
@@ -2210,6 +2231,9 @@
           </Chord>
         </Measure>
       <Measure number="36">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Slur id="32">
           <track>0</track>
           </Slur>
@@ -2255,7 +2279,6 @@
         <Beam id="49">
           </Beam>
         <Tuplet id="7">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -2304,7 +2327,6 @@
         <Beam id="50">
           </Beam>
         <Tuplet id="8">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -2352,7 +2374,6 @@
         <Beam id="51">
           </Beam>
         <Tuplet id="9">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -2401,7 +2422,6 @@
         <Beam id="52">
           </Beam>
         <Tuplet id="10">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>eighth</baseNote>
@@ -2509,6 +2529,9 @@
           </Chord>
         </Measure>
       <Measure number="40">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <Beam id="55">
           </Beam>
         <Chord>
