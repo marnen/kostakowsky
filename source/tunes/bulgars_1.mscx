@@ -472,6 +472,7 @@
         <startRepeat/>
         <KeySig>
           <accidental>-1</accidental>
+          <mode>minor</mode>
           </KeySig>
         <TimeSig>
           <sigN>2</sigN>
