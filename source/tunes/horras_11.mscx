@@ -10,6 +10,8 @@
     <Division>480</Division>
     <Style>
       <hideEmptyStaves>1</hideEmptyStaves>
+      <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+      <ottavaNumbersOnly>0</ottavaNumbersOnly>
       <TextStyle>
         <halign>left</halign>
         <valign>baseline</valign>
@@ -78,8 +80,8 @@
         <valign>center</valign>
         <offsetType>spatium</offsetType>
         <name>Fingering</name>
-        <family>FreeSerif</family>
-        <size>8</size>
+        <family>Emmentaler</family>
+        <size>11</size>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
       <TextStyle>
@@ -148,7 +150,7 @@
         <offsetType>spatium</offsetType>
         <name>Technique</name>
         <family>FreeSerif</family>
-        <size>12</size>
+        <size>11</size>
         <italic>1</italic>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
@@ -415,7 +417,7 @@
     <metaTag name="originalFormat">musicxml</metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">Kostakowsky page 19</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">And Serba.</metaTag>
     <metaTag name="workTitle">Rumanian Horra</metaTag>
@@ -596,7 +598,6 @@
         <Beam id="6">
           </Beam>
         <Tuplet id="1">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -755,8 +756,12 @@
         <endRepeat>2</endRepeat>
         <Volta id="3">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-2"/>
+            </Segment>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -812,8 +817,12 @@
         <endSpanner id="3"/>
         <Volta id="4">
           <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-2"/>
+            </Segment>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
@@ -917,7 +926,6 @@
         <Beam id="17">
           </Beam>
         <Tuplet id="2">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -1024,7 +1032,9 @@
             </Note>
           </Chord>
         <StaffText>
-          <text>[2 eighths in source]</text>
+          <pos x="0" y="-7.12558"/>
+          <text>[2 eighths
+in source]</text>
           </StaffText>
         <Beam id="21">
           </Beam>
@@ -1103,7 +1113,6 @@
         <Beam id="24">
           </Beam>
         <Tuplet id="3">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -1148,7 +1157,6 @@
         <Volta id="8">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -1184,7 +1192,6 @@
         <Volta id="9">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
@@ -1475,7 +1482,6 @@
         <Beam id="34">
           </Beam>
         <Tuplet id="4">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -1666,7 +1672,6 @@
         <Beam id="40">
           </Beam>
         <Tuplet id="5">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -1837,7 +1842,6 @@
         <Beam id="45">
           </Beam>
         <Tuplet id="6">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -2028,7 +2032,6 @@
         <Beam id="51">
           </Beam>
         <Tuplet id="7">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -2168,7 +2171,6 @@
         <Beam id="55">
           </Beam>
         <Tuplet id="8">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -2348,7 +2350,6 @@
         <Beam id="62">
           </Beam>
         <Tuplet id="9">
-          <bracketType>1</bracketType>
           <normalNotes>2</normalNotes>
           <actualNotes>3</actualNotes>
           <baseNote>16th</baseNote>
@@ -2393,7 +2394,6 @@
         <Volta id="21">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>1</text>
             </beginText>
           <endings>1</endings>
@@ -2429,7 +2429,6 @@
         <Volta id="22">
           <endHook>1</endHook>
           <beginText>
-            <style>Volta</style>
             <text>2</text>
             </beginText>
           <endings>2</endings>
