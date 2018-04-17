@@ -2,4 +2,6 @@
 title: Bulgars
 ---
 
-%pre.abc= partial 'bulgars.abc'
+= partial 'tune', locals: {tune: 'bulgars_a1', id: 'A.1'}
+- (1..2).each do |n|
+  = partial 'tune', locals: {tune: "bulgars_#{n}"}
