@@ -13,4 +13,4 @@
   = link_to 'MusicXML', "/tunes/#{tune}.xml"
   = link_to 'MuseScore (uncompressed)', "/tunes/#{tune}.mscx"
   = link_to 'MuseScore (compressed)', "/tunes/#{tune}.mscz"
-= image_tag "/tunes/#{tune}.thumb.png"
+= image_tag "/tunes/#{tune}.thumb.png", alt: "[Thumbnail: #{id}. #{title xml, full: false}]"
