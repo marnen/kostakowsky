@@ -27,11 +27,19 @@ page '/*.txt', layout: false
 #   },
 # )
 
+set :external_asset_dir, '.tmp/dist'
+
 # from https://github.com/acoustep/middleman-brunch/blob/master/template/config.rb
 activate :external_pipeline,
   name: :brunch,
   command: build? ? './node_modules/brunch/bin/brunch build --production --env production' : './node_modules/brunch/bin/brunch watch --stdin',
-  source: ".tmp/dist",
+  source: config[:external_asset_dir],
+  latency: 1
+
+activate :external_pipeline,
+  name: :rake,
+  command: build? ? "OUTPUT_DIR='#{config[:external_asset_dir]}' bundle exec rake convert_tunes" : 'bundle exec guard -P rake',
+  source: config[:external_asset_dir],
   latency: 1
 
 # Helpers
@@ -43,6 +51,9 @@ activate :external_pipeline,
 #     'Helping'
 #   end
 # end
+
+require 'helpers/music_xml_helpers'
+helpers MusicXmlHelpers
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

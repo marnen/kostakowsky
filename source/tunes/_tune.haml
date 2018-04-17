@@ -1,0 +1,16 @@
+- id ||= id(tune)
+- xml = File.join(config[:external_asset_dir], "tunes/#{tune}.xml")
+
+%article
+  %h2{id: "tune_#{id}"}
+    == #{id}.
+    = title(xml, full: true).chomp '.'
+    == (#{key xml})
+%p
+  Download:
+  = link_to 'ABC', "/tunes/#{tune}.abc"
+  = link_to 'PDF', "/tunes/#{tune}.pdf"
+  = link_to 'MusicXML', "/tunes/#{tune}.xml"
+  = link_to 'MuseScore (uncompressed)', "/tunes/#{tune}.mscx"
+  = link_to 'MuseScore (compressed)', "/tunes/#{tune}.mscz"
+= image_tag "/tunes/#{tune}.thumb.png", alt: "[Thumbnail: #{id}. #{title xml, full: false}]"

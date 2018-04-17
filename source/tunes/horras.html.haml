@@ -2,4 +2,6 @@
 title: Horras and Serbas
 ---
 
-%pre.abc= partial 'horras.abc'
+- (1..11).each do |n|
+  = partial 'tune', locals: {tune: "horras_#{n}"}
+= partial 'tune', locals: {tune: 'horras_11a', id: '[11a]'}

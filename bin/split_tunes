@@ -1,0 +1,13 @@
+#!/bin/sh
+# Split an ABC file into multiple files, one for each tune.
+
+TEMPDIR=`mktemp -d -t split_tunes`
+DIRNAME=`dirname $1`
+BASENAME=`basename $1 .abc`
+PREFIX=${TEMPDIR}/${BASENAME}
+csplit -k -f $PREFIX -n 4 $1 /^X:/ '{10000}'
+for file in ${PREFIX}*; do
+  X=`head -1 $file | ruby -e "puts STDIN.read.split(':').last.strip.tr '^a-zA-Z0-9', '_'"`
+  echo mv $file ${DIRNAME}/${BASENAME}_${X}.abc
+  mv $file ${DIRNAME}/${BASENAME}_${X}.abc
+done
