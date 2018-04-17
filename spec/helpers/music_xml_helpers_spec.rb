@@ -72,12 +72,12 @@ describe MusicXmlHelpers do
         let(:mode) { 'major' }
 
         {
-          -7 => 'Cb',
-          -6 => 'Gb',
-          -5 => 'Db',
-          -4 => 'Ab',
-          -3 => 'Eb',
-          -2 => 'Bb',
+          -7 => 'C♭',
+          -6 => 'G♭',
+          -5 => 'D♭',
+          -4 => 'A♭',
+          -3 => 'E♭',
+          -2 => 'B♭',
           -1 => 'F',
           0 => 'C',
           1 => 'G',
@@ -85,8 +85,8 @@ describe MusicXmlHelpers do
           3 => 'A',
           4 => 'E',
           5 => 'B',
-          6 => 'F#',
-          7 => 'C#'
+          6 => 'F♯',
+          7 => 'C♯'
         }.each do |fifths, key|
           context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
             let(:fifths) { fifths }
@@ -107,9 +107,9 @@ describe MusicXmlHelpers do
         let(:mode) { 'minor' }
 
         {
-          -7 => 'Ab',
-          -6 => 'Eb',
-          -5 => 'Bb',
+          -7 => 'A♭',
+          -6 => 'E♭',
+          -5 => 'B♭',
           -4 => 'F',
           -3 => 'C',
           -2 => 'G',
@@ -117,11 +117,11 @@ describe MusicXmlHelpers do
           0 => 'A',
           1 => 'E',
           2 => 'B',
-          3 => 'F#',
-          4 => 'C#',
-          5 => 'G#',
-          6 => 'D#',
-          7 => 'A#'
+          3 => 'F♯',
+          4 => 'C♯',
+          5 => 'G♯',
+          6 => 'D♯',
+          7 => 'A♯'
         }.each do |fifths, key|
           context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
             let(:fifths) { fifths }
@@ -134,10 +134,10 @@ describe MusicXmlHelpers do
         let(:mode) { 'dorian' }
 
         {
-          -7 => 'Db',
-          -6 => 'Ab',
-          -5 => 'Eb',
-          -4 => 'Bb',
+          -7 => 'D♭',
+          -6 => 'A♭',
+          -5 => 'E♭',
+          -4 => 'B♭',
           -3 => 'F',
           -2 => 'C',
           -1 => 'G',
@@ -145,10 +145,10 @@ describe MusicXmlHelpers do
           1 => 'A',
           2 => 'E',
           3 => 'B',
-          4 => 'F#',
-          5 => 'C#',
-          6 => 'G#',
-          7 => 'D#'
+          4 => 'F♯',
+          5 => 'C♯',
+          6 => 'G♯',
+          7 => 'D♯'
         }.each do |fifths, key|
           context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
             let(:fifths) { fifths }
@@ -183,7 +183,7 @@ describe MusicXmlHelpers do
         end
 
         it 'returns all key names, comma-separated' do
-          expect(subject).to be == 'C, F#m'
+          expect(subject).to be == 'C, F♯m'
         end
       end
     end
