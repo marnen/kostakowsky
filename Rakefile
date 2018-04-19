@@ -67,7 +67,9 @@ namespace :build do
       pdf[0].save tmp_name
       screen = ChunkyPNG::Image.from_file tmp_name
       scale = 0.5
+      crop_height = 135
       thumb = screen.resample((screen.width * scale).to_i, (screen.height * scale).to_i)
+      thumb.crop! 0, 0, thumb.width, crop_height
       thumb.save png.name
     end
   end
