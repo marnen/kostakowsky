@@ -64,7 +64,7 @@ namespace :build do
     Dir.mktmpdir do |tmp|
       tmp_name = "#{tmp}/page1.png"
       pdf = Grim.reap png.source
-      pdf[0].save tmp_name
+      pdf[0].save tmp_name, alpha: 'remove'
       screen = ChunkyPNG::Image.from_file tmp_name
       scale = 0.5
       crop_height = 135
