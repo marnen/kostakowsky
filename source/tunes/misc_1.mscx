@@ -11,6 +11,7 @@
     <Style>
       <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+      <ottavaHook>1.2</ottavaHook>
       <ottavaNumbersOnly>0</ottavaNumbersOnly>
       <TextStyle>
         <halign>left</halign>

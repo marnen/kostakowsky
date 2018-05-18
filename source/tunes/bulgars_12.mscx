@@ -11,6 +11,7 @@
     <Style>
       <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+      <ottavaHook>1.2</ottavaHook>
       <ottavaNumbersOnly>0</ottavaNumbersOnly>
       <TextStyle>
         <halign>left</halign>
@@ -501,7 +502,7 @@
         <startRepeat/>
         <KeySig>
           <accidental>-1</accidental>
-	  <mode>minor</mode>
+          <mode>minor</mode>
           </KeySig>
         <TimeSig>
           <sigN>2</sigN>

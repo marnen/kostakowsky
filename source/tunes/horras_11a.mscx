@@ -10,6 +10,9 @@
     <Division>480</Division>
     <Style>
       <hideEmptyStaves>1</hideEmptyStaves>
+      <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+      <ottavaHook>1.2</ottavaHook>
+      <ottavaNumbersOnly>0</ottavaNumbersOnly>
       <TextStyle>
         <halign>left</halign>
         <valign>baseline</valign>
@@ -78,8 +81,8 @@
         <valign>center</valign>
         <offsetType>spatium</offsetType>
         <name>Fingering</name>
-        <family>FreeSerif</family>
-        <size>8</size>
+        <family>Emmentaler</family>
+        <size>11</size>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
       <TextStyle>
@@ -148,7 +151,7 @@
         <offsetType>spatium</offsetType>
         <name>Technique</name>
         <family>FreeSerif</family>
-        <size>12</size>
+        <size>11</size>
         <italic>1</italic>
         <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
         </TextStyle>
