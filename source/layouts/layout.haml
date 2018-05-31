@@ -17,3 +17,6 @@
     %main
       %h1= current_page.data.header || current_page.data.title
       = yield
+    %footer
+      :markdown
+        Web edition by [Marnen E. Laibow-Koser](http://www.marnen.org).

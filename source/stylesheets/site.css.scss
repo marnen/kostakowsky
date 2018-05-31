@@ -5,6 +5,11 @@ body {
   font-family: $open-sans;
 }
 
+footer {
+  border-top: 1px solid #666;
+  margin-top: 0.3rem;
+}
+
 header {
   $header-background: #003399;
   $header-text: #ffffcc;
