@@ -156,7 +156,7 @@
     <voltaLineWidth>0.1</voltaLineWidth>
     <voltaLineStyle>1</voltaLineStyle>
     <ottavaY>-3</ottavaY>
-    <ottavaHook>1.9</ottavaHook>
+    <ottavaHook>1.2</ottavaHook>
     <ottavaLineWidth>0.1</ottavaLineWidth>
     <ottavaLineStyle>2</ottavaLineStyle>
     <ottavaNumbersOnly>0</ottavaNumbersOnly>
