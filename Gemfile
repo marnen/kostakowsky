@@ -13,4 +13,4 @@ gem 'guard-rspec'
 gem 'nokogiri', '~> 1.8.2'
 gem 'rake', '~> 12.3.1'
 
-gem 'middleman-firebase', '~> 0.1.0'
+gem 'middleman-firebase', '~> 0.1.2'
