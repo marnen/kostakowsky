@@ -2,6 +2,7 @@ require 'chunky_png'
 require 'grim'
 require 'json'
 require 'tmpdir'
+require 'middleman/firebase/tasks'
 
 ALL_TUNES = 'source/tunes/**/*.mscx'
 STYLE_FILE = 'source/default.mss'
