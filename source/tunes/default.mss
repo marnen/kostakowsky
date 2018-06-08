@@ -167,7 +167,7 @@
     <tremoloDistance>0.8</tremoloDistance>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
-    <keySigNaturals>0</keySigNaturals>
+    <keySigNaturals>2</keySigNaturals>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOufOfStaff>1</tupletOufOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
