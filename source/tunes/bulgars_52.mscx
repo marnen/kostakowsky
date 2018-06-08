@@ -1741,7 +1741,7 @@
             <offset x="0" y="-1"/>
             </Segment>
           <beginText>
-            <text>1.</text>
+            <text>1</text>
             </beginText>
           <endings>1</endings>
           </Volta>
@@ -1789,7 +1789,7 @@
             <offset x="0" y="-1"/>
             </Segment>
           <beginText>
-            <text>2.</text>
+            <text>2</text>
             </beginText>
           <endings>2</endings>
           </Volta>
