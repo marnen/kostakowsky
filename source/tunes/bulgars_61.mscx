@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="2.06">
+  <programVersion>2.2.1</programVersion>
+  <programRevision>51b8386</programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Synthesizer>
+      </Synthesizer>
+    <Division>480</Division>
+    <Style>
+      <hideEmptyStaves>1</hideEmptyStaves>
+      <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
+      <ottavaHook>1.2</ottavaHook>
+      <ottavaNumbersOnly>0</ottavaNumbersOnly>
+      <keySigNaturals>2</keySigNaturals>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <family>FreeSerif</family>
+        <size>10</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Title</name>
+        <family>FreeSerif</family>
+        <size>24</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>10</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Subtitle</name>
+        <family>FreeSerif</family>
+        <size>14</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Composer</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Lyricist</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Odd Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Even Lines</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Fingering</name>
+        <family>Emmentaler</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <xoffset>-0.5</xoffset>
+        <yoffset>0</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>LH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>RH Guitar Fingering</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Long)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Short)</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Part)</name>
+        <family>FreeSerif</family>
+        <size>18</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>8</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Dynamics</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Technique</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Tempo</name>
+        <family>FreeSerif</family>
+        <size>14</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Metronome</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Measure Number</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Translator</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Tuplet</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>System</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Staff</name>
+        <family>FreeSerif</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Left</name>
+        <family>FreeSerif</family>
+        <size>20</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>7</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Right</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0.5</xoffset>
+        <yoffset>1.9</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Volta</name>
+        <family>FreeSerif</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Frame</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Text Line</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Glissando</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Ottava</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>0.15</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Pedal</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Hairpin</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <offsetType>spatium</offsetType>
+        <name>Bend</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Header</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>5</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Footer</name>
+        <family>FreeSerif</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Instrument Change</name>
+        <family>FreeSerif</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <page-layout>
+        <page-height>1683.78</page-height>
+        <page-width>1190.55</page-width>
+        <page-margins type="even">
+          <left-margin>56.6929</left-margin>
+          <right-margin>56.6929</right-margin>
+          <top-margin>56.6929</top-margin>
+          <bottom-margin>113.386</bottom-margin>
+          </page-margins>
+        <page-margins type="odd">
+          <left-margin>56.6929</left-margin>
+          <right-margin>56.6929</right-margin>
+          <top-margin>56.6929</top-margin>
+          <bottom-margin>113.386</bottom-margin>
+          </page-margins>
+        </page-layout>
+      <Spatium>1.76389</Spatium>
+      </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer"></metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2018-06-11</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="platform">Apple Macintosh</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source">Kostakowsky page 63</metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">Otzi Otzi.</metaTag>
+    <PageList>
+      <Page>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      </PageList>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        </Staff>
+      <trackName>Piano</trackName>
+      <Instrument>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>10</height>
+        <Text>
+          <style>Title</style>
+          <text>Otzi Otzi.</text>
+          </Text>
+        </VBox>
+      <Measure number="1">
+        <startRepeat/>
+        <KeySig>
+          <accidental>-1</accidental>
+          <mode>minor</mode>
+          </KeySig>
+        <TimeSig>
+          <sigN>2</sigN>
+          <sigD>4</sigD>
+          <showCourtesySig>1</showCourtesySig>
+          </TimeSig>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
+        <Slur id="2">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="2"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="2"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="2">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="1">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>1</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="3"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>1</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>1</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="3"/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="3">
+        <Slur id="4">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="4"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="4"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="5">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="2">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>2</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="5"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>2</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>2</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="5"/>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="5">
+        <Slur id="6">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="6"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="6"/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>72</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Slur id="7">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="3">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>3</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="7"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>3</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>3</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="7"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="7">
+        <Volta id="8">
+          <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-1"/>
+            </Segment>
+          <beginText>
+            <text>1</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="8">
+        <endRepeat>2</endRepeat>
+        <Slur id="9">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="4">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>4</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="9"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>4</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="9"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>4</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Slur id="10">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="5">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>5</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="10"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>5</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="10"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>5</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <endSpanner id="8"/>
+        <Slur id="11">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="6">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>6</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="11"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>6</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="11"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>6</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Slur id="12">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="7">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>7</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="12"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>7</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="12"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Volta id="13">
+          <endHook>1</endHook>
+          <Segment>
+            <subtype>0</subtype>
+            <off2 x="0" y="0"/>
+            <offset x="0" y="-1"/>
+            </Segment>
+          <beginText>
+            <text>2</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
+        <Chord>
+          <Tuplet>7</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="10">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Chord>
+          <durationType>half</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>double</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      <Measure number="11">
+        <startRepeat/>
+        <BarLine>
+          <subtype>start-repeat</subtype>
+          <span>1</span>
+          </BarLine>
+        <endSpanner id="13"/>
+        <Slur id="14">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="14"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="14"/>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="15">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="15"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="15"/>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="12">
+        <Slur id="16">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="8">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>8</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="16"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>8</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>8</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="16"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Slur id="17">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="9">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>9</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="17"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>9</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>9</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="17"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13">
+        <Slur id="18">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="18"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="18"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="19">
+              </Tie>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <endSpanner id="19"/>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="14">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Slur id="20">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="10">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>10</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="20"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>10</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>10</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="20"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Slur id="21">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="11">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>11</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="21"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>11</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <role>1</role>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>11</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="21"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="15">
+        <Slur id="22">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="22"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="22"/>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="23">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="23"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="23"/>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="16">
+        <Slur id="24">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="24"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="24"/>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Slur id="25">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="12">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>12</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="25"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>12</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="25"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>12</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="17">
+        <Slur id="26">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="26"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="26"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="18">
+        <Slur id="27">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="27"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>85</pitch>
+            <tpc>21</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="27"/>
+          <Note>
+            <pitch>88</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="19">
+        <Slur id="28">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="28"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="28"/>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Slur id="29">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="29"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="29"/>
+          <Note>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="20">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Slur id="30">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="13">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>13</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="30"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>13</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>13</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="30"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Slur id="31">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="14">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>14</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="31"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>14</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>14</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="31"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="21">
+        <Slur id="32">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="start" id="32"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Slur type="stop" id="32"/>
+          <Note>
+            <Accidental>
+              <subtype>natural</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>19</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <Tie id="33">
+              </Tie>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <endSpanner id="33"/>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="22">
+        <Slur id="34">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="15">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>15</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="34"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>15</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="34"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>15</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="23">
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="24">
+        <Slur id="35">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="16">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>16</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="35"/>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>16</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="35"/>
+          <Note>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>80</pitch>
+            <tpc>22</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>16</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Slur id="36">
+          <track>0</track>
+          </Slur>
+        <Tuplet id="17">
+          <normalNotes>2</normalNotes>
+          <actualNotes>3</actualNotes>
+          <baseNote>eighth</baseNote>
+          <Number>
+            <style>Tuplet</style>
+            <text>3</text>
+            </Number>
+          </Tuplet>
+        <Chord>
+          <Tuplet>17</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="start" id="36"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>17</Tuplet>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="36"/>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <Tuplet>17</Tuplet>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="25">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>76</pitch>
+            <tpc>18</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>16th</durationType>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="26">
+        <endRepeat>2</endRepeat>
+        <Volta id="37">
+          <endHook>1</endHook>
+          <beginText>
+            <text>1</text>
+            </beginText>
+          <endings>1</endings>
+          </Volta>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>69</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="27">
+        <endSpanner id="37"/>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>74</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Volta id="38">
+          <endHook>1</endHook>
+          <beginText>
+            <text>2</text>
+            </beginText>
+          <endings>2</endings>
+          </Volta>
+        <Rest>
+          <durationType>quarter</durationType>
+          </Rest>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
+        <endSpanner id="38"/>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
