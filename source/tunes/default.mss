@@ -156,7 +156,7 @@
     <voltaLineWidth>0.1</voltaLineWidth>
     <voltaLineStyle>1</voltaLineStyle>
     <ottavaY>-3</ottavaY>
-    <ottavaHook>1.9</ottavaHook>
+    <ottavaHook>1.2</ottavaHook>
     <ottavaLineWidth>0.1</ottavaLineWidth>
     <ottavaLineStyle>2</ottavaLineStyle>
     <ottavaNumbersOnly>0</ottavaNumbersOnly>
@@ -167,7 +167,7 @@
     <tremoloDistance>0.8</tremoloDistance>
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
-    <keySigNaturals>0</keySigNaturals>
+    <keySigNaturals>2</keySigNaturals>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOufOfStaff>1</tupletOufOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
