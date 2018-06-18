@@ -1,3 +1,5 @@
+require 'html-proofer'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -65,3 +67,7 @@ helpers MusicXmlHelpers
 
 set :haml, format: :html5
 set :sass_assets_paths, ['node_modules']
+
+after_build do
+  HTMLProofer.check_directory(config[:build_dir]).run
+end
