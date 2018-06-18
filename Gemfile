@@ -10,7 +10,7 @@ gem 'faker'
 gem 'grim'
 gem 'guard-rake'
 gem 'guard-rspec'
+gem 'html-proofer', '~> 3.9.1'
 gem 'nokogiri', '~> 1.8.2'
 gem 'rake', '~> 12.3.1'
-
 gem 'middleman-firebase', '~> 0.1.2'
