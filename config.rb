@@ -69,5 +69,5 @@ set :haml, format: :html5
 set :sass_assets_paths, ['node_modules']
 
 after_build do
-  HTMLProofer.check_directory(config[:build_dir]).run
+  HTMLProofer.check_directory(config[:build_dir], check_html: true).run
 end
