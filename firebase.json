@@ -24,6 +24,12 @@
         "headers": [
           {"key": "Content-Type", "value": "application/vnd.musescore+zip"}
         ]
+      },
+      {
+        "source": "**/tunes/*.xml",
+        "headers": [
+          {"key": "Content-Type", "value": "application/vnd.recordare.musicxml+xml"}
+        ]
       }
     ]
   }
