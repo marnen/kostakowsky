@@ -12,6 +12,18 @@
         "headers": [
           {"key": "Content-Type", "value": "text/vnd.abc"}
         ]
+      },
+      {
+        "source": "**/*.mscx",
+        "headers": [
+          {"key": "Content-Type", "value": "application/vnd.musescore+xml"}
+        ]
+      },
+      {
+        "source": "**/*.mscz",
+        "headers": [
+          {"key": "Content-Type", "value": "application/vnd.musescore+zip"}
+        ]
       }
     ]
   }
