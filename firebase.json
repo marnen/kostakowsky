@@ -26,7 +26,7 @@
         ]
       },
       {
-        "source": "**/tunes/*.xml",
+        "source": "/tunes/**/*.xml",
         "headers": [
           {"key": "Content-Type", "value": "application/vnd.recordare.musicxml+xml"}
         ]
