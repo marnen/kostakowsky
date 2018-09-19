@@ -20,7 +20,7 @@ task :update_style do
       puts JSON.dump(job).inspect
       file.write JSON.dump job
     end
-    MuseScore.new.convert! style: STYLE_FILE, job: job_file
+    MuseScore.convert! style: STYLE_FILE, job: job_file
   end
 end
 
@@ -48,17 +48,17 @@ namespace :build do
 
   rule '.xml' => '.mscz' do |xml|
     mkdir_for xml.name
-    MuseScore.new.convert! from: xml.source, to: xml.name, style: STYLE_FILE
+    MuseScore.convert! from: xml.source, to: xml.name, style: STYLE_FILE
   end
 
   rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|
     mkdir_for mscz.name
-    MuseScore.new.convert! from: mscz.source, to: mscz.name
+    MuseScore.convert! from: mscz.source, to: mscz.name
   end
 
   rule '.pdf' => '.mscz' do |pdf|
     mkdir_for pdf.name
-    MuseScore.new.convert! from: pdf.source, to: pdf.name
+    MuseScore.convert! from: pdf.source, to: pdf.name
   end
 
   rule '.thumb.png' => '.pdf' do |png|
@@ -94,7 +94,7 @@ namespace :build do
   end
 
   def muse_score(*args)
-    MuseScore.new.call! *args
+    MuseScore.call! *args
   end
 
   def source_for(filename, extension: '.mscx')
