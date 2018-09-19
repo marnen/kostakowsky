@@ -2,6 +2,7 @@ require 'chunky_png'
 require 'grim'
 require 'json'
 require 'tmpdir'
+require File.join File.dirname(__FILE__), 'lib/muse_score'
 
 ALL_TUNES = 'source/tunes/**/*.mscx'
 STYLE_FILE = 'source/default.mss'
@@ -92,11 +93,8 @@ namespace :build do
     mkdir_p filename.pathmap('%d')
   end
 
-  def muse_score(*args, synthesizer: false, midi: false)
-    defaults = [:synthesizer, :midi].map do |option|
-      binding.local_variable_get(option) ? nil : "--no-#{option}"
-    end.compact
-    sh 'mscore', *defaults, *args
+  def muse_score(*args)
+    MuseScore.new(*args).call!
   end
 
   def source_for(filename, extension: '.mscx')
