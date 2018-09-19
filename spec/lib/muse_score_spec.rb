@@ -32,11 +32,27 @@ describe MuseScore do
     describe '#convert!' do
       let(:from) { Faker::File.file_name }
       let(:to) { Faker::File.file_name }
-      let(:call!) { muse_score.convert! from: from, to: to }
+      let(:args) { {from: from, to: to} }
+      let(:call!) { muse_score.convert! args }
+      let(:sh_params) { ['-o', to, from] }
+      let(:expected_command_line) { [command, *options, *sh_params] }
 
-      it 'calls MuseScore with the default options and specified filenames for conversion' do
-        expect(muse_score).to receive(:sh).with command, *options, '-o', to, from
-        call!
+      context 'no style' do
+        it 'calls MuseScore with the default options and specified filenames for conversion' do
+          expect(muse_score).to receive(:sh).with *expected_command_line
+          call!
+        end
+      end
+
+      context 'style' do
+        let(:style_file) { Faker::File.file_name }
+        let(:args) { super().merge style: style_file }
+        let(:sh_params) { super().unshift '-S', style_file }
+
+        it 'adds the style file to the command line' do
+          expect(muse_score).to receive(:sh).with *expected_command_line
+          call!
+        end
       end
     end
 

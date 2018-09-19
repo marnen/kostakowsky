@@ -48,7 +48,7 @@ namespace :build do
 
   rule '.xml' => '.mscz' do |xml|
     mkdir_for xml.name
-    muse_score '-S', STYLE_FILE, '-o', xml.name, xml.source
+    MuseScore.new.convert! from: xml.source, to: xml.name, style: STYLE_FILE
   end
 
   rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|

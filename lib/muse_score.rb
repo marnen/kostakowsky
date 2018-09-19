@@ -9,8 +9,10 @@ class MuseScore
     sh COMMAND, *options, *args
   end
 
-  def convert!(from:, to:)
-    sh COMMAND, *options, '-o', to, from
+  def convert!(from:, to:, style: nil)
+    params = ['-o', to, from]
+    params.unshift('-S', style) if style
+    sh COMMAND, *options, *params
   end
 
   def options
