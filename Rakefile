@@ -53,12 +53,12 @@ namespace :build do
 
   rule '.mscz' => ->(mscz) { source_for mscz } do |mscz|
     mkdir_for mscz.name
-    muse_score '-o', mscz.name, mscz.source
+    MuseScore.new.convert! from: mscz.source, to: mscz.name
   end
 
   rule '.pdf' => '.mscz' do |pdf|
     mkdir_for pdf.name
-    muse_score '-o', pdf.name, pdf.source
+    MuseScore.new.convert! from: pdf.source, to: pdf.name
   end
 
   rule '.thumb.png' => '.pdf' do |png|
@@ -94,7 +94,7 @@ namespace :build do
   end
 
   def muse_score(*args)
-    MuseScore.new(*args).call!
+    MuseScore.new.call! *args
   end
 
   def source_for(filename, extension: '.mscx')

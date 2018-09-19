@@ -5,11 +5,15 @@ class MuseScore
 
   COMMAND = 'mscore'
 
-  def initialize
-    @defaults = ['--no-midi', '--no-synthesizer']
+  def call!(*args)
+    sh COMMAND, *options, *args
   end
 
-  def call!(*args)
-    sh COMMAND, *@defaults, *args
+  def convert!(from:, to:)
+    sh COMMAND, *options, '-o', to, from
+  end
+
+  def options
+    %w[--no-midi --no-synthesizer]
   end
 end
