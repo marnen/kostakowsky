@@ -20,7 +20,7 @@ task :update_style do
       puts JSON.dump(job).inspect
       file.write JSON.dump job
     end
-    muse_score '-S', STYLE_FILE, '-j', job_file
+    MuseScore.new.convert! style: STYLE_FILE, job: job_file
   end
 end
 
