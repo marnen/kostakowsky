@@ -26,50 +26,49 @@ describe MuseScore do
 
   describe '.convert!' do
     let(:call!) { MuseScore.convert! args }
-    let(:expected_command_line) { [command, *options, *sh_params] }
 
-    shared_examples 'style file argument' do
-      context 'style' do
-        let(:style_file) { Faker::File.file_name }
-        let(:args) { super().merge style: style_file }
-        let(:sh_params) { super().unshift '-S', style_file }
+    context 'happy path' do
+      let(:expected_command_line) { [command, *options, *sh_params] }
 
-        it 'adds the style file to the command line' do
-          expect(MuseScore).to execute *expected_command_line
-          call!
-        end
+      after(:each) do
+        expect(MuseScore).to execute *expected_command_line
+        call!
       end
-    end
 
-    context 'single file' do
-      let(:from) { Faker::File.file_name }
-      let(:to) { Faker::File.file_name }
-      let(:args) { {from: from, to: to} }
-      let(:sh_params) { ['-o', to, from] }
+      shared_examples 'style file argument' do
+        context 'style' do
+          let(:style_file) { Faker::File.file_name }
+          let(:args) { super().merge style: style_file }
+          let(:sh_params) { super().unshift '-S', style_file }
 
-      context 'no style' do
-        it 'calls MuseScore with the default options and specified filenames for conversion' do
-          expect(MuseScore).to execute *expected_command_line
-          call!
+          it('adds the style file to the command line') { }
         end
       end
 
-      include_examples 'style file argument'
-    end
+      context 'single file' do
+        let(:from) { Faker::File.file_name }
+        let(:to) { Faker::File.file_name }
+        let(:args) { {from: from, to: to} }
+        let(:sh_params) { ['-o', to, from] }
 
-    context 'batch job' do
-      let(:job_file) { Faker::File.file_name }
-      let(:args) { {job: job_file} }
-      let(:sh_params) { ['-j', job_file] }
-
-      context 'no style' do
-        it 'calls MuseScore with the default options and specified job file' do
-          expect(MuseScore).to execute *expected_command_line
-          call!
+        context 'no style' do
+          it('calls MuseScore with the default options and specified filenames for conversion') { }
         end
+
+        include_examples 'style file argument'
       end
 
-      include_examples 'style file argument'
+      context 'batch job' do
+        let(:job_file) { Faker::File.file_name }
+        let(:args) { {job: job_file} }
+        let(:sh_params) { ['-j', job_file] }
+
+        context 'no style' do
+          it('calls MuseScore with the default options and specified job file') { }
+        end
+
+        include_examples 'style file argument'
+      end
     end
 
     context 'error conditions' do
