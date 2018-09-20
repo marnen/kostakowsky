@@ -1,5 +1,5 @@
 require 'spec_helper'
-require File.join(File.dirname(__FILE__), '../../helpers/music_xml_helpers')
+require_relative '../../helpers/music_xml_helpers'
 require 'faker'
 require 'tmpdir'
 

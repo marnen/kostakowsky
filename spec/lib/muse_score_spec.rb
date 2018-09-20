@@ -1,6 +1,6 @@
 require 'spec_helper'
-require File.join(File.dirname(__FILE__), '../matchers/execute')
-require File.join(File.dirname(__FILE__), '../../lib/muse_score')
+require_relative '../matchers/execute'
+require_relative '../../lib/muse_score'
 require 'faker'
 
 describe MuseScore do
