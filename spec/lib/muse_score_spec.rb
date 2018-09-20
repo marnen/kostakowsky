@@ -1,4 +1,5 @@
 require 'spec_helper'
+require File.join(File.dirname(__FILE__), '../matchers/execute')
 require File.join(File.dirname(__FILE__), '../../lib/muse_score')
 require 'faker'
 
@@ -18,17 +19,7 @@ describe MuseScore do
     let(:call!) { MuseScore.call! *strings }
 
     it 'passes the strings to MuseScore, prepended with the command options' do
-      expect(MuseScore).to receive(:shell).with command, *options, *strings
-      call!
-    end
-
-    it 'disables MIDI' do
-      expect(MuseScore).to receive(:shell) {|*args| expect(args).to include '--no-midi' }
-      call!
-    end
-
-    it 'disables the synthesizer' do
-      expect(MuseScore).to receive(:shell) {|*args| expect(args).to include '--no-synthesizer' }
+      expect(MuseScore).to execute command, *options, *strings
       call!
     end
   end
@@ -44,7 +35,7 @@ describe MuseScore do
         let(:sh_params) { super().unshift '-S', style_file }
 
         it 'adds the style file to the command line' do
-          expect(MuseScore).to receive(:shell).with *expected_command_line
+          expect(MuseScore).to execute *expected_command_line
           call!
         end
       end
@@ -58,7 +49,7 @@ describe MuseScore do
 
       context 'no style' do
         it 'calls MuseScore with the default options and specified filenames for conversion' do
-          expect(MuseScore).to receive(:shell).with *expected_command_line
+          expect(MuseScore).to execute *expected_command_line
           call!
         end
       end
@@ -73,7 +64,7 @@ describe MuseScore do
 
       context 'no style' do
         it 'calls MuseScore with the default options and specified job file' do
-          expect(MuseScore).to receive(:shell).with *expected_command_line
+          expect(MuseScore).to execute *expected_command_line
           call!
         end
       end
