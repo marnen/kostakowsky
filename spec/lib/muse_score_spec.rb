@@ -3,16 +3,17 @@ require File.join(File.dirname(__FILE__), '../../lib/muse_score')
 require 'faker'
 
 describe MuseScore do
+  subject { MuseScore }
   let(:command) { MuseScore::COMMAND }
   let(:options) { MuseScore::OPTIONS }
 
-  context 'function hiding' do
-    it 'does not expose sh' do
-      expect(MuseScore).not_to respond_to :sh
+  context 'method hiding' do
+    [:sh, :shell].each do |method|
+      it { is_expected.not_to respond_to method }
     end
   end
 
-  describe '#call!' do
+  describe '.call!' do
     let(:strings) { Faker::Lorem.words rand(1..5) }
     let(:call!) { MuseScore.call! *strings }
 
@@ -32,7 +33,7 @@ describe MuseScore do
     end
   end
 
-  describe '#convert!' do
+  describe '.convert!' do
     let(:call!) { MuseScore.convert! args }
     let(:expected_command_line) { [command, *options, *sh_params] }
 
@@ -77,8 +78,6 @@ describe MuseScore do
         end
       end
 
-
-
       include_examples 'style file argument'
     end
 
@@ -104,7 +103,7 @@ describe MuseScore do
     end
   end
 
-  describe '#options' do
+  describe 'OPTIONS' do
     it 'disables MIDI and synthesizer' do
       expect(MuseScore::OPTIONS).to match_array ['--no-midi', '--no-synthesizer']
     end
