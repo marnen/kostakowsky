@@ -93,10 +93,6 @@ namespace :build do
     mkdir_p filename.pathmap('%d')
   end
 
-  def muse_score(*args)
-    MuseScore.call! *args
-  end
-
   def source_for(filename, extension: '.mscx')
     filename.pathmap("%{^#{@output_dir},source}X#{extension}")
   end
