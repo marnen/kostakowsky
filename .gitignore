@@ -6,5 +6,6 @@
 build/
 node_modules/
 bin/**/*.pyc
+Kostakowski*.pdf
 .*.mscx,
 .*.mscz,
