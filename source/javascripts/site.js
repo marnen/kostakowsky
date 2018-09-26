@@ -1,5 +1,4 @@
 'use strict';
-import ClipboardJS from 'clipboard/dist/clipboard.min.js'; // see https://github.com/zenorocha/clipboard.js/issues/535 for why the minified version
 import $ from 'jquery';
 
 $(() => {
