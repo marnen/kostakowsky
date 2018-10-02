@@ -2,4 +2,5 @@
 title: Ongas
 ---
 
-= partial 'tune', locals: {tune: "onga_1"}
+- (1..2).each do |n|
+  = partial 'tune', locals: {tune: "onga_#{n}"}
