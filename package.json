@@ -9,6 +9,7 @@
   "devDependencies": {
     "babel-brunch": "^6.1.1",
     "brunch": "^2.10.12",
+    "firebase-tools": "^6.0.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "reset-css": "^3.0.0"
