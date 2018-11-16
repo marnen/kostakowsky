@@ -421,7 +421,7 @@
     <metaTag name="source">Kostakowsky page 91</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Freilachs.</metaTag>
+    <metaTag name="workTitle">Freilachs. [D mixolydian]</metaTag>
     <PageList>
       <Page>
         <System>
@@ -500,7 +500,7 @@
       <Measure number="1" len="1/8">
         <irregular/>
         <KeySig>
-          <accidental>2</accidental>
+          <accidental>1</accidental>
           </KeySig>
         <TimeSig>
           <sigN>2</sigN>
@@ -838,10 +838,7 @@
         </Measure>
       <Measure number="8">
         <endRepeat>2</endRepeat>
-        <Slur id="7">
-          <track>0</track>
-          </Slur>
-        <Volta id="8">
+        <Volta id="7">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -853,9 +850,12 @@
             </beginText>
           <endings>1</endings>
           </Volta>
+        <Slur id="8">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="7"/>
+          <Slur type="start" id="8"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -863,7 +863,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="7"/>
+          <Slur type="stop" id="8"/>
           <Note>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -895,11 +895,8 @@
           <text>Fine.</text>
           <label>fine</label>
           </Marker>
-        <endSpanner id="8"/>
-        <Slur id="10">
-          <track>0</track>
-          </Slur>
-        <Volta id="11">
+        <endSpanner id="7"/>
+        <Volta id="10">
           <endHook>1</endHook>
           <Segment>
             <subtype>0</subtype>
@@ -911,9 +908,12 @@
             </beginText>
           <endings>2</endings>
           </Volta>
+        <Slur id="11">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="start" id="10"/>
+          <Slur type="start" id="11"/>
           <Note>
             <pitch>76</pitch>
             <tpc>18</tpc>
@@ -921,7 +921,7 @@
           </Chord>
         <Chord>
           <durationType>16th</durationType>
-          <Slur type="stop" id="10"/>
+          <Slur type="stop" id="11"/>
           <Note>
             <pitch>78</pitch>
             <tpc>20</tpc>
@@ -957,7 +957,7 @@
           </BarLine>
         </Measure>
       <Measure number="10">
-        <endSpanner id="11"/>
+        <endSpanner id="10"/>
         <Slur id="12">
           <track>0</track>
           </Slur>
@@ -1002,8 +1002,8 @@
           <durationType>eighth</durationType>
           <Slur type="start" id="13"/>
           <Note>
-            <pitch>85</pitch>
-            <tpc>21</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1174,8 +1174,8 @@
           <Slur type="start" id="18"/>
           <Slur type="start" id="19"/>
           <Note>
-            <pitch>85</pitch>
-            <tpc>21</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
