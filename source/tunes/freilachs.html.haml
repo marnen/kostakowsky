@@ -2,4 +2,5 @@
 title: Freilachs
 ---
 
-= partial 'tune', locals: {tune: "freilachs_1"}
+- (1..2).each do |n|
+  = partial 'tune', locals: {tune: "freilachs_#{n}"}
