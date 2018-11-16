@@ -1,6 +1,7 @@
 .bundle
 .cache
 .DS_Store
+.firebase
 .sass-cache
 .tmp/
 build/
