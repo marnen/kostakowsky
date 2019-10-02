@@ -154,7 +154,7 @@
     <metaTag name="source">Kostakowsky page 80</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Rumanian Serba. [B♭ mixolydian?]</metaTag>
+    <metaTag name="workTitle">Rumanian Serba. [verify mode; it's a bit odd]</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -218,6 +218,7 @@
         <voice>
           <KeySig>
             <accidental>-3</accidental>
+            <mode>mixolydian</mode>
             </KeySig>
           <TimeSig>
             <sigN>2</sigN>

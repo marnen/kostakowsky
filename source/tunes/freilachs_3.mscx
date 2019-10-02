@@ -154,7 +154,7 @@
     <metaTag name="source">Kostakowsky page 91</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Freilachs. [D mixolydian]</metaTag>
+    <metaTag name="workTitle">Freilachs.</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -219,6 +219,7 @@
         <voice>
           <KeySig>
             <accidental>1</accidental>
+            <mode>mixolydian</mode>
             </KeySig>
           <TimeSig>
             <sigN>2</sigN>

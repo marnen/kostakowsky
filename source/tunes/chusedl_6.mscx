@@ -154,7 +154,7 @@
     <metaTag name="source">Kostakowsky page 87</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Chusidil. [C dorian?]</metaTag>
+    <metaTag name="workTitle">Chusidil.</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -219,7 +219,7 @@
         <voice>
           <KeySig>
             <accidental>-2</accidental>
-            <mode>minor</mode>
+            <mode>dorian</mode>
             </KeySig>
           <TimeSig>
             <sigN>2</sigN>
