@@ -26,6 +26,7 @@ module MusicXmlHelpers
     'major' => {adjust: 0, suffix: ''},
     'minor' => {adjust: 3, suffix: 'm'},
     'dorian' => {adjust: 2, suffix: 'dor'},
+    'mixolydian' => {adjust: 1, suffix: 'mix'}
   }
 
 
