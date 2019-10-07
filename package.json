@@ -12,6 +12,7 @@
     "firebase-tools": "^6.1.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.0",
-    "reset-css": "^3.0.0"
+    "reset-css": "^3.0.0",
+    "yarn-deduplicate": "^1.1.1"
   }
 }
