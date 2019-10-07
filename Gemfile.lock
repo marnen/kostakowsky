@@ -118,7 +118,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     nenv (0.3.0)
-    nokogiri (1.8.2)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -180,7 +180,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-firebase (~> 0.1.2)
-  nokogiri (~> 1.8.2)
+  nokogiri (~> 1.8.5)
   rake (~> 12.3.1)
   tzinfo-data
   wdm (~> 0.1)
