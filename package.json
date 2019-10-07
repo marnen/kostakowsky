@@ -8,7 +8,7 @@
   "private": true,
   "devDependencies": {
     "babel-brunch": "^6.1.1",
-    "brunch": "^2.10.12",
+    "brunch": "^2.10.17",
     "firebase-tools": "^6.1.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.0",
