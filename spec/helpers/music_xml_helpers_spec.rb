@@ -157,6 +157,33 @@ describe MusicXmlHelpers do
         end
       end
 
+      context 'mixolydian' do
+        let(:mode) { 'mixolydian' }
+
+        {
+          -7 => 'G♭',
+          -6 => 'D♭',
+          -5 => 'A♭',
+          -4 => 'E♭',
+          -3 => 'B♭',
+          -2 => 'F',
+          -1 => 'C',
+          0 => 'G',
+          1 => 'D',
+          2 => 'A',
+          3 => 'E',
+          4 => 'B',
+          5 => 'F♯',
+          6 => 'C♯',
+          7 => 'G♯'
+        }.each do |fifths, key|
+          context "#{fifths} fifth#{fifths == 1 ? nil : 's'}" do
+            let(:fifths) { fifths }
+            it { is_expected.to be == "#{key}mix" }
+          end
+        end
+      end
+
       context 'multiple keys' do
         let(:body) do
           strip_heredoc <<-"XML"

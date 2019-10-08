@@ -1,11 +1,13 @@
 .bundle
 .cache
 .DS_Store
+.firebase
 .sass-cache
 .tmp/
 build/
 node_modules/
 bin/**/*.pyc
 Kostakowski*.pdf
+thumbnail.jpg
 .*.mscx,
 .*.mscz,
