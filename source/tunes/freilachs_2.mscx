@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
   <programVersion>3.3.0</programVersion>
-  <programRevision>b45221c</programRevision>
+  <programRevision>d3bff12</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1002,11 +1002,11 @@
             <text>[<i>sic</i>]</text>
             </StaffText>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>4</actualNotes>
             <baseNote>eighth</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <durationType>eighth</durationType>
