@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
   <programVersion>3.3.0</programVersion>
-  <programRevision>b45221c</programRevision>
+  <programRevision>d3bff12</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -151,7 +151,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Apple Macintosh</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">Kostakowsky page 97</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Freilachs.</metaTag>
@@ -1260,11 +1260,11 @@
             <text>[<i>sic</i>]</text>
             </StaffText>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>

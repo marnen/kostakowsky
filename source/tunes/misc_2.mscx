@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
   <programVersion>3.3.0</programVersion>
-  <programRevision>b45221c</programRevision>
+  <programRevision>d3bff12</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1103,7 +1103,6 @@
         <voice>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1111,6 +1110,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1163,7 +1163,6 @@
           <endTuplet/>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1171,6 +1170,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1348,7 +1348,6 @@
         <voice>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1356,6 +1355,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1424,7 +1424,6 @@
           <endTuplet/>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1432,6 +1431,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1568,7 +1568,6 @@
         <voice>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1576,6 +1575,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1644,7 +1644,6 @@
           <endTuplet/>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1652,6 +1651,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1900,7 +1900,6 @@
         <voice>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1908,6 +1907,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
@@ -1976,7 +1976,6 @@
           <endTuplet/>
           <Tuplet>
             <offset x="0" y="0.5"/>
-            <direction>down</direction>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1984,6 +1983,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <direction>down</direction>
             </Tuplet>
           <Beam>
             </Beam>
