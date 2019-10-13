@@ -154,7 +154,7 @@
     <metaTag name="source">Kostakowsky page 64</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">Zu Shpeit. [G dorian]</metaTag>
+    <metaTag name="workTitle">Zu Shpeit.</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -218,6 +218,7 @@
         <voice>
           <KeySig>
             <accidental>-1</accidental>
+            <mode>dorian</mode>
             </KeySig>
           <TimeSig>
             <sigN>3</sigN>
