@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
   <programVersion>3.3.0</programVersion>
-  <programRevision>b45221c</programRevision>
+  <programRevision>d3bff12</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -1958,11 +1958,11 @@
             <durationType>16th</durationType>
             </Rest>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>1</normalNotes>
             <actualNotes>2</actualNotes>
             <baseNote>16th</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
@@ -2005,11 +2005,11 @@
             <durationType>16th</durationType>
             </Rest>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>1</normalNotes>
             <actualNotes>2</actualNotes>
             <baseNote>16th</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
@@ -2856,11 +2856,11 @@
             <durationType>16th</durationType>
             </Rest>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>1</normalNotes>
             <actualNotes>2</actualNotes>
             <baseNote>16th</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>
@@ -2903,11 +2903,11 @@
             <durationType>16th</durationType>
             </Rest>
           <Tuplet>
-            <numberType>2</numberType>
-            <bracketType>2</bracketType>
             <normalNotes>1</normalNotes>
             <actualNotes>2</actualNotes>
             <baseNote>16th</baseNote>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <durationType>16th</durationType>

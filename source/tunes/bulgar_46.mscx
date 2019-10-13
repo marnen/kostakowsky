@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
   <programVersion>3.3.0</programVersion>
-  <programRevision>b45221c</programRevision>
+  <programRevision>d3bff12</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -808,7 +808,6 @@
       <Measure>
         <voice>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -816,6 +815,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
@@ -835,7 +835,6 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -843,6 +842,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
@@ -916,7 +916,6 @@
       <Measure>
         <voice>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -924,6 +923,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
@@ -943,7 +943,6 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -951,6 +950,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
@@ -974,7 +974,6 @@
       <Measure>
         <voice>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -982,6 +981,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
@@ -1001,7 +1001,6 @@
             </Chord>
           <endTuplet/>
           <Tuplet>
-            <bracketType>2</bracketType>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
@@ -1009,6 +1008,7 @@
               <style>Tuplet</style>
               <text>3</text>
               </Number>
+            <bracketType>2</bracketType>
             </Tuplet>
           <Chord>
             <dots>1</dots>
