@@ -414,7 +414,7 @@
             <Note>
               <Fingering>
                 <minDistance>0.5</minDistance>
-                <offset x="0" y="-2.09187"/>
+                <offset x="0" y="-0.5"/>
                 <text>3</text>
                 </Fingering>
               <pitch>81</pitch>
