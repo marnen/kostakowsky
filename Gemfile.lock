@@ -134,7 +134,7 @@ GEM
     public_suffix (3.0.2)
     rack (2.0.7)
     rainbow (3.0.0)
-    rake (12.3.1)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -180,7 +180,7 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
   middleman-firebase (~> 0.1.2)
   nokogiri (~> 1.10.4)
-  rake (~> 12.3.1)
+  rake (~> 12.3.3)
   tzinfo-data
   wdm (~> 0.1)
 
